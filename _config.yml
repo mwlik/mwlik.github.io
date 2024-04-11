@@ -121,7 +121,7 @@ post_search: true
 edit_page_button: false
 
 # remove ads
-remove-ads: true
+#remove-ads: true
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
