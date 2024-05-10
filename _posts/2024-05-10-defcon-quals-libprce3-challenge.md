@@ -6,7 +6,7 @@ mathjax: true
 author: M411K
 ---
 
-## libprce3 ≈ 47 solve
+## libprce3 ≈ 47 solves
 
 I didn't spend enough time on this challenge during the CTF, though after one of the organizer told me - after the CTF - that it was about a backdoor that was added to the library, the challenge just seemed to cool to not try to solve.
 
