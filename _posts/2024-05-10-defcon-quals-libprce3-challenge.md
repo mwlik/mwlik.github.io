@@ -59,7 +59,7 @@ afer extracting the lines from the `makevp.bat` - where it was found - and then 
 
 decoding the base64 gives us this content:
 
-```
+```diff
 #/bin/bash
 if [ -z "$BUILD_NUMBER" ]; then
 rm -f a
