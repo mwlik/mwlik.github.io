@@ -6,7 +6,7 @@ mathjax: true
 author: M411K
 ---
 
-## justPocketTheBase ≈ 44
+## justPocketTheBase ≈ 44 solves
 
 ![image](https://github.com/mwlik/mwlik.github.io/assets/73129654/1caba872-34a9-48f4-a5aa-80f069d78e2f)
 
