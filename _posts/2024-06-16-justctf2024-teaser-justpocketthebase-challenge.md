@@ -1,7 +1,7 @@
 ---
 layout: post
-title: justCTF 2024 teaser justPocketTheBase challenge writeup
-subtitle: XSS (Constant Suffering Syndrome)
+title: justCTF 2024 teaser justPocketTheBase web challenge writeup
+subtitle: mXSS (Constant Suffering Syndrome)
 mathjax: true
 author: M411K
 ---
