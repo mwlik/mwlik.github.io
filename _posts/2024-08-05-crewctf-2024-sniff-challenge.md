@@ -223,7 +223,7 @@ Sending `buf_a`:
 Sending `buf_b`:
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/d38ebe65-d150-439b-a866-8220d0f9fc0b">
 
-So now after the image is clear (pun intended), it's time for writing a script for this.
+So now after the image is clear (pun intended), it's time for writing a [script](https://github.com/mwlik/inky-phat-signals-to-frames) for this.
 
 ```py
 with open("./inky_spi.csv") as file:
