@@ -190,6 +190,7 @@ DC   -> orange -> G4
 RST  -> yellow -> G3
 ```
 
+
 ```
 BUSY -> pastel green -> G2
 CSB (CS): Slave chip selection signal, low active. When CS is low level, the chip is enabled.
