@@ -11,8 +11,10 @@ author: M411K
 
 ## Sniff One = 27 solves, Sniff Two = 16 solves
 
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/419aaaca-70a6-421a-a535-995fb2372d8c">
-<img width="360" alt="image" src="https://github.com/user-attachments/assets/3236cfd0-47e4-409b-9c02-84f491f87118">
+<div style="text-align: center;">
+	<img width="350" alt="image" src="https://github.com/user-attachments/assets/419aaaca-70a6-421a-a535-995fb2372d8c">
+	<img width="360" alt="image" src="https://github.com/user-attachments/assets/3236cfd0-47e4-409b-9c02-84f491f87118">
+</div>
 
 ## Overview
 
@@ -20,8 +22,10 @@ This was a two parts hardware challenge, we were provided with an attachment [di
 
 It was a setup linking a cardKB mini keyboard and an e-paper display with Raspy 4 model b:
 
-<img width="360" alt="image" src="https://github.com/user-attachments/assets/89ed837a-b018-4c18-b051-da7b03ddfa49">
-<img width="360" alt="image" src="https://github.com/user-attachments/assets/fdf39b01-edfc-4f45-b77f-eb7acc48093f">
+<div style="text-align: center;">
+	<img width="360" alt="image" src="https://github.com/user-attachments/assets/89ed837a-b018-4c18-b051-da7b03ddfa49">
+	<img width="360" alt="image" src="https://github.com/user-attachments/assets/fdf39b01-edfc-4f45-b77f-eb7acc48093f">
+</div>
 
 ```
 This challenge has two flags in the flag{} format:
@@ -35,7 +39,9 @@ So the challenge was depicting a person that entered the password (first easier 
 
 So to find the first flag we need to find what was typed by the user of the keyboard, after researching the keyboard that was used, i found this pretty good [reference](https://docs.m5stack.com/en/unit/cardkb), and in it we find that the Communication method is [I2C](https://en.wikipedia.org/wiki/I%C2%B2C), for those that don't know how I2C there is some good references u can consult, one of these is this [video](https://youtu.be/CAvawEcxoPU?si=dEOXzUjc35swLupM), so I2C is a communication protocal that has generally two channels `SDA` (the one responsiblle for transmitting data), `SCL` (the clock that synchronize the communication):
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/4bf58ea0-7e35-4729-8fa1-5ba62a7b9e66">
+<div style="text-align: center;">
+	<img width="500" alt="image" src="https://github.com/user-attachments/assets/4bf58ea0-7e35-4729-8fa1-5ba62a7b9e66">
+</div>
 
 And looking at the sal capture:
 
