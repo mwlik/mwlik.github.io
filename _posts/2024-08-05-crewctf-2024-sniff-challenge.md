@@ -12,8 +12,8 @@ author: M411K
 ## Sniff One = 27 solves, Sniff Two = 16 solves
 
 <div style="text-align: center;">
-	<img width="350" alt="image" src="https://github.com/user-attachments/assets/419aaaca-70a6-421a-a535-995fb2372d8c">
-	<img width="360" alt="image" src="https://github.com/user-attachments/assets/3236cfd0-47e4-409b-9c02-84f491f87118">
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/419aaaca-70a6-421a-a535-995fb2372d8c">
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/3236cfd0-47e4-409b-9c02-84f491f87118">
 </div>
 
 ## Overview
@@ -23,8 +23,8 @@ This was a two parts hardware challenge, we were provided with an attachment [di
 It was a setup linking a cardKB mini keyboard and an e-paper display with Raspy 4 model b:
 
 <div style="text-align: center;">
-	<img width="360" alt="image" src="https://github.com/user-attachments/assets/89ed837a-b018-4c18-b051-da7b03ddfa49">
-	<img width="360" alt="image" src="https://github.com/user-attachments/assets/fdf39b01-edfc-4f45-b77f-eb7acc48093f">
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/89ed837a-b018-4c18-b051-da7b03ddfa49">
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/fdf39b01-edfc-4f45-b77f-eb7acc48093f">
 </div>
 
 ```
@@ -40,20 +40,26 @@ So the challenge was depicting a person that entered the password (first easier 
 So to find the first flag we need to find what was typed by the user of the keyboard, after researching the keyboard that was used, i found this pretty good [reference](https://docs.m5stack.com/en/unit/cardkb), and in it we find that the Communication method is [I2C](https://en.wikipedia.org/wiki/I%C2%B2C), for those that don't know how I2C there is some good references u can consult, one of these is this [video](https://youtu.be/CAvawEcxoPU?si=dEOXzUjc35swLupM), so I2C is a communication protocal that has generally two channels `SDA` (the one responsiblle for transmitting data), `SCL` (the clock that synchronize the communication):
 
 <div style="text-align: center;">
-	<img width="500" alt="image" src="https://github.com/user-attachments/assets/4bf58ea0-7e35-4729-8fa1-5ba62a7b9e66">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/4bf58ea0-7e35-4729-8fa1-5ba62a7b9e66">
 </div>
 
 And looking at the sal capture:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/2ad141d7-2dbb-40fb-be76-1b47a4420224">
+<div style="text-align: center;">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/2ad141d7-2dbb-40fb-be76-1b47a4420224">
+</div>
 
 I figured that D0 and D1 is SDA and SCL respectively, but you can verify this looking at pictures of the wiring like this one:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/7ea5953b-e470-4cf3-8dcc-6615ec8c8775">
+<div style="text-align: center;">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/7ea5953b-e470-4cf3-8dcc-6615ec8c8775">
+</div>
 
 So I added the I2C analyzer to [Logic 2](https://www.saleae.com/pages/downloads) and exported the data as csv.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/5e2c66b9-928e-405f-9482-c1a2efeabe95">
+<div style="text-align: center;">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/5e2c66b9-928e-405f-9482-c1a2efeabe95">
+</div>
 
 Now its time to decode those signals, but instead of doing it by hand why not just find a libray an already implemented library that will handle that for me?
 
@@ -304,13 +310,17 @@ def _update(self, buf_a, buf_b, busy_wait=True):
 
 So it was all about reversing this behavior and finding connections between this code and the captured signals, in fact we can distinguish when the two pictures that were written to the screen:
 
+<div style="text-align: center;">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/2d2eb017-328a-4f1c-aeac-43d10550d36f">
+</div>
 
 Now after comparing the signals sent with library code we can understand what its actually doing.
 
 Like here we can see that it's sending the height `0x00F9` + `0x00` (It's little ending so the lower address is getting sent first that's why you see `0xF9` being sent first in the capture)
 
+<div style="text-align: center;">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/122b7b1b-3a1b-4472-8b3d-c1834c6e8f35">
+</div>
 
 And this part of the operation is the most important, cause its sends in it the `buf_a`, `buf_b` buffers (our original image) to the device:
 
@@ -326,10 +336,16 @@ for data in ((0x24, buf_a), (0x26, buf_b)):
 Which we can actually see in the capture:
 
 Sending `buf_a`:
+
+<div style="text-align: center;">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/465a9ab5-e81f-466f-a5f7-f76180b8b03f">
+</div>
 
 Sending `buf_b`:
+
+<div style="text-align: center;">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/d38ebe65-d150-439b-a866-8220d0f9fc0b">
+</div>
 
 So now after the image is clear (pun intended), it's time for writing a [script](https://github.com/mwlik/inky-phat-signals-to-frames) for this.
 
@@ -415,7 +431,9 @@ Note: The implementating, especially width/height handling is not implemented ri
 
 And tada!
 
+<div style="text-align: center;">
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/76261bc1-3914-495c-b430-b97956e930dc">
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/afd213e1-7331-49ae-96d3-d8b8144d9f64">
+</div>
 
 flag: `flag{ec9cf2b7}`
