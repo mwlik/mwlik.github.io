@@ -53,7 +53,92 @@ Now its time to decode those signals, but instead of doing it by hand why not ju
 
 That's exactly what I did and found [this one](https://github.com/ian-antking/cardkb), so I made some modification to the code to suit my use case:
 
-<!-- TODO: ADD THE SOLVE SCRIPT -->
+`ascii_codes.py`
+
+```
+ascii = {
+  # number row
+    0x1B: ["KEY_ESC"],
+    0x31: ["KEY_1"],
+    0x32: ["KEY_2"],
+    0x33: ["KEY_3"],
+    0x34: ["KEY_4"],
+    0x35: ["KEY_5"],
+    0x36: ["KEY_6"],
+    0x37: ["KEY_7"],
+    0x38: ["KEY_8"],
+    0x39: ["KEY_9"],
+    0x30: ["KEY_0"],
+    0x08: ["KEY_BACKSPACE"],
+
+  # top row
+    0x09: ["KEY_TAB"],
+    0x71: ["KEY_Q"],
+    0x77: ["KEY_W"],
+    0x65: ["KEY_E"],
+    0x72: ["KEY_R"],
+    0x74: ["KEY_T"],
+    0x79: ["KEY_Y"],
+    0x75: ["KEY_U"],
+    0x69: ["KEY_I"],
+    0x6F: ["KEY_O"],
+    0x70: ["KEY_P"],
+
+  # home row
+    0x61: ["KEY_A"],
+    0x73: ["KEY_S"],
+    0x64: ["KEY_D"],
+    0x66: ["KEY_F"],
+    0x67: ["KEY_G"],
+    0x68: ["KEY_H"],
+    0x6A: ["KEY_J"],
+    0x6B: ["KEY_K"],
+    0x6C: ["KEY_L"],
+    0x0D: ["KEY_ENTER"],
+
+  # bottom row
+    0x7A: ["KEY_Z"],
+    0x78: ["KEY_X"],
+    0x63: ["KEY_C"],
+    0x76: ["KEY_V"],
+    0x62: ["KEY_B"],
+    0x6E: ["KEY_N"],
+    0x6D: ["KEY_M"],
+    0x2C: ["KEY_COMMA"],
+    0x2E: ["KEY_DOT"],
+    0x20: ["KEY_SPACE"],
+
+  # arrow keys
+    0xB4: ["KEY_LEFT"],
+    0xB5: ["KEY_UP"],
+    0xB6: ["KEY_DOWN"],
+    0xB7: ["KEY_RIGHT"],
+
+    ... (check the above repo for the rest)
+
+}
+```
+
+`solve.py`
+
+```py
+import csv
+from ascii_codes import ascii
+import sys
+import time
+import traceback
+
+with open("../dist/i2c_keyboard.csv") as file:
+    reader = csv.reader(file)
+    header = next(reader)
+    for row in reader:
+        address = int(row[2], 16)
+        data = int(row[3], 16)
+        if address == 0x5F and data in ascii:
+            button = ascii[data]
+            #print(hex(data))
+            print(*button)
+```
 
 and tada!
 
@@ -80,6 +165,23 @@ flag: `flag{717f7532}`
 ## Sniff Two
 
 This second part had to do with the display. which was a Pimoroni Inky pHAT, so I had the [pin layout](https://pinout.xyz/pinout/inky_phat), and the [library](https://github.com/pimoroni/inky) that can be used to display images to the screen to reverse its behavior, so that's what I did, and luckily library code was fairly readable so here is the code flow from the image to the screen.
+
+### Pin layout
+
+Figuring out which pin was which was fairly simple given the pictures:
+
+CLK  -> brown  -> G6
+DIN  -> red    -> G5
+CS   -> blue   -> G7
+DC   -> orange -> G4
+RST  -> yellow -> G3
+BUSY -> pastel green -> G2
+
+CSB (CS): Slave chip selection signal, low active. When CS is low level, the chip is enabled.
+SCL (SCK/SCLK): Serial clock signal.
+D/C (DC): Data/Command control signal, writes commands at a low level; writes data/parameter at a high level.
+SDA (DIN): Serial data signal.
+Timing sequence: CPHL=0, CPOL=0 (that is, SPI mode 0).
 
 ### Setting The Image
 
