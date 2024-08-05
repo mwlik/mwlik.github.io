@@ -182,17 +182,22 @@ This second part had to do with the display. which was a Pimoroni Inky pHAT, so 
 
 Figuring out which pin was which was fairly simple given the pictures:
 
+```
 CLK  -> brown  -> G6
 DIN  -> red    -> G5
 CS   -> blue   -> G7
 DC   -> orange -> G4
 RST  -> yellow -> G3
-BUSY -> pastel green -> G2
+```
 
+```
+BUSY -> pastel green -> G2
 CSB (CS): Slave chip selection signal, low active. When CS is low level, the chip is enabled.
 SCL (SCK/SCLK): Serial clock signal.
 D/C (DC): Data/Command control signal, writes commands at a low level; writes data/parameter at a high level.
 SDA (DIN): Serial data signal.
+```
+
 Timing sequence: CPHL=0, CPOL=0 (that is, SPI mode 0).
 
 ### Setting The Image
