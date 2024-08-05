@@ -196,13 +196,13 @@ def _update(self, buf_a, buf_b, busy_wait=True):
 
 So it was all about reversing this behavior and finding connections between this code and the captured signals, in fact we can distinguish when the two pictures that were written to the screen:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/2d2eb017-328a-4f1c-aeac-43d10550d36f">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/2d2eb017-328a-4f1c-aeac-43d10550d36f">
 
 Now after comparing the signals sent with library code we can understand what its actually doing.
 
 Like here we can see that it's sending the height `0x00F9` + `0x00` (It's little ending so the lower address is getting sent first that's why you see `0xF9` being sent first in the capture)
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/122b7b1b-3a1b-4472-8b3d-c1834c6e8f35">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/122b7b1b-3a1b-4472-8b3d-c1834c6e8f35">
 
 And this part of the operation is the most important, cause its sends in it the `buf_a`, `buf_b` buffers (our original image) to the device:
 
@@ -218,10 +218,10 @@ for data in ((0x24, buf_a), (0x26, buf_b)):
 Which we can actually see in the capture:
 
 Sending `buf_a`:
-<img width="783" alt="image" src="https://github.com/user-attachments/assets/465a9ab5-e81f-466f-a5f7-f76180b8b03f">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/465a9ab5-e81f-466f-a5f7-f76180b8b03f">
 
 Sending `buf_b`:
-<img width="641" alt="image" src="https://github.com/user-attachments/assets/d38ebe65-d150-439b-a866-8220d0f9fc0b">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/d38ebe65-d150-439b-a866-8220d0f9fc0b">
 
 So now after the image is clear (pun intended), it's time for writing a script for this.
 
@@ -307,7 +307,7 @@ Note: The implementating, especially width/height handling is not implemented ri
 
 And tada!
 
-<img width="641" alt="image" src="https://github.com/user-attachments/assets/76261bc1-3914-495c-b430-b97956e930dc">
-<img width="641" alt="image" src="https://github.com/user-attachments/assets/afd213e1-7331-49ae-96d3-d8b8144d9f64">
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/76261bc1-3914-495c-b430-b97956e930dc">
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/afd213e1-7331-49ae-96d3-d8b8144d9f64">
 
 flag: `flag{ec9cf2b7}`
