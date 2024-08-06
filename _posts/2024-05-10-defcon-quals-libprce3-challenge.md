@@ -5,6 +5,7 @@ subtitle: A reincarnation of the liblzma backdoor
 mathjax: true
 share-img: https://github.com/user-attachments/assets/c4a05b54-6834-4f43-a22b-b4cac6664037
 cover-img: https://github.com/user-attachments/assets/c4a05b54-6834-4f43-a22b-b4cac6664037
+tags: [CTFs Writeups, Exploitation]
 author: M411K
 ---
 
