@@ -3,6 +3,8 @@ layout: post
 title: justCTF 2024 teaser justPocketTheBase web challenge writeup
 subtitle: mXSS (Constant Suffering Syndrome)
 mathjax: true
+share-img: https://github.com/user-attachments/assets/0eb50bf1-0969-4a75-a102-fd50f58b7c45
+cover-img: https://github.com/user-attachments/assets/0eb50bf1-0969-4a75-a102-fd50f58b7c45
 author: M411K
 ---
 
