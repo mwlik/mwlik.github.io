@@ -5,6 +5,7 @@ subtitle: mXSS (Constant Suffering Syndrome)
 mathjax: true
 share-img: https://github.com/user-attachments/assets/0eb50bf1-0969-4a75-a102-fd50f58b7c45
 cover-img: https://github.com/user-attachments/assets/0eb50bf1-0969-4a75-a102-fd50f58b7c45
+tags: [CTFs Writeups, Web]
 author: M411K
 ---
 
