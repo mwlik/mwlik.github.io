@@ -21,7 +21,7 @@ Hiree: This will be used interchangeably with infosec person, pentester, securit
 
 # Rational
 
-My rationale for this can be stated as follows.
+My rationale for this can be stated as follows:
 
 ## The real attacker >> Your security guy
 
