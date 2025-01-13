@@ -23,7 +23,7 @@ Hiree: This will be used interchangeably with infosec person, pentester, securit
 
 My rationale for this can be stated as follows.
 
-## The real attacker >>> Your security guy
+## The real attacker >> Your security guy
 
 What a lot of managers often miss when trying to choose between whitebox and blackbox is that they put that attacker and the pentester on the same scale, and that's absolutely misleading because they're missing that the attacker can be assumed to have infinite time and resources, think of it in the worst case scenario: each person on earth can be the feared attacker, and each one of them can have the biggest nation computing resources and knowledge, so putting them on the same situation (blackbox) is really unjust, because you're comparing a hiree with limited time, resources and knowledge, with an enormous number of hackers with certainly more knowledge and resources.
 
