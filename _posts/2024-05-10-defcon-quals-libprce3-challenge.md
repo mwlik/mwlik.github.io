@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DefCon 32 Quals libprce3 writeup
+title: DefCon 32 Quals libprce3 Writeup
 subtitle: A reincarnation of the liblzma backdoor
 mathjax: true
 share-img: https://github.com/user-attachments/assets/5f57e9f7-9542-4b5e-b8eb-e021da4f5548
