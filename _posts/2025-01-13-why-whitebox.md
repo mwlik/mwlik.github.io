@@ -39,4 +39,4 @@ If you're doubtful of this idea, that giving enough time, you're application's s
 
 In conclusion, what you want from your hiree is to find the largest portion and most important number of vulnerabilities for you to patch them in a limited time, and a whitebox approach can help greatly with that. So if you're a project manager reading this, I hope I convinced you of choosing a whitebox approach over a blackbox-ed one, and of course there is always an exception to the rule, so take my advice with a grain of salt by addapting it to you're own situation
 
-Thanks for @nyly for proof-reading this. Et voila!
+Thanks to @nyly for proof-reading this. Et voila!

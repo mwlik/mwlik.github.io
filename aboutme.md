@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About me
+title: About Me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is M411K. I have the following qualities:
+Hi! My name is M411K. I love CS, especially InfoSec.
 
--
+### N.B.
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, maybe later?
+All external resources mentioned in my articles are included solely for their technical content; the views, backgrounds, or actions of the creators do not reflect my endorsement.
