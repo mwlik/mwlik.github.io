@@ -4,7 +4,7 @@ title: About Me
 subtitle: Why you'd want to go on a date with me
 ---
 
-Hi! My name is M411K. I love CS, especially InfoSec.
+Hi! My name is M411K. Programmer by day, hacker by night.
 
 ### N.B.
 
