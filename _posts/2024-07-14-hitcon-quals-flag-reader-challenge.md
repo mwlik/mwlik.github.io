@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HITCON CTF 2024 "Flag Reader" Writeup
+title: HITCON CTF 2024 Flag Reader Writeup
 subtitle: A tarball of ideas
 mathjax: true
 cover-img: https://github.com/user-attachments/assets/53372e64-27e6-4c71-82de-1652d25cd300
