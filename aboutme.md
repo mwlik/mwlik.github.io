@@ -6,6 +6,14 @@ subtitle: Why you'd want to go on a date with me
 
 Hi! My name is M411K 🔻.
 
+# CVEs
+
+- `Nan`
+
+# Bounties
+
+- Crunchyroll Account Takeover - $4,500 (Collaborated with @nyly & @S0nG0ku)
+
 # N.B.
 
 All external resources mentioned in my articles are included solely for their technical content; the views, backgrounds, or actions of the creators do not reflect my endorsement.
