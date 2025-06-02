@@ -4,7 +4,7 @@ title: About Me
 subtitle: 0x4141414141414141
 ---
 
-Hi! My name is M411K 🔻.
+Hi! My name is M411K 🔻, I do computer science and I love hacking.
 
 # CVEs
 
