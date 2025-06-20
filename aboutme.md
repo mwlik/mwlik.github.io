@@ -12,7 +12,7 @@ Hi! My name is M411K 🔻, I do computer science and I love hacking.
 
 # Bounties
 
-- Account Takeover - $4,500 (Collaborated with @nyly & @S0nG0ku)
+- Account Takeover - $4,500 (Collaborated with nyly & S0nG0ku)
 
 # N.B.
 
