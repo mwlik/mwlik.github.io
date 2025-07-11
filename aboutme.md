@@ -8,7 +8,8 @@ Hi! My name is M411K 🔻, I do computer science and I love hacking.
 
 # Security Advisories
 
-- `Nan`
+- [`GHSA-hq75-xg7r-rx6c`](https://github.com/Bekacru/better-call/security/advisories/GHSA-hq75-xg7r-rx6c) - Routing Bug Can Lead to Cache Deception in [better-call](https://www.npmjs.com/package/better-call) <img src="https://img.shields.io/npm/dm/better-call" alt="npm downloads" style="display: inline;" />
+- [`GHSA-36rg-gfq2-3h56/CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56) - Open Redirect Vulnerability in originCheck Middleware Affects Multiple Routes in [better-auth](https://www.npmjs.com/package/better-auth) <img src="https://img.shields.io/npm/dm/better-auth" alt="npm downloads" style="display: inline;" />
 
 # Bounties
 
