@@ -175,7 +175,7 @@ Interestingly the usage of this pair of flags is [“common”](https://github.c
 
 # Weird enough?
 
-Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless you open a new tab, huh?!, yes look take a look.
+Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless you open a new tab, huh?!, yes take a look:
 
 <center>
 <video height="400" controls style="max-width: 90vw;">
