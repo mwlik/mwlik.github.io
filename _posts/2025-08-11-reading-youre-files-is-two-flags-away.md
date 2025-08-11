@@ -182,7 +182,7 @@ Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless yo
 <video height="400" controls>
   <source src="https://github.com/user-attachments/assets/6e26b0e9-9a18-4245-9637-4d789014a6d9" type="video/mp4">
 </video>
-
+<br>
 <em>Without new tab</em>
 </center>
 
@@ -190,7 +190,7 @@ Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless yo
 <video height="400" controls>
   <source src="https://github.com/user-attachments/assets/933adf44-13ee-4645-87b7-c9e2e2c712a9" type="video/mp4">
 </video>
-
+<br>
 <em>With new tab</em>
 </center>
 
