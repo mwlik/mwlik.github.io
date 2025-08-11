@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading you’re files is two steps flags away
+title: Reading you’re files is two ~~steps~~ flags away
 subtitle: Vibe coding...
 mathjax: true
 share-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
