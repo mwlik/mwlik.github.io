@@ -63,9 +63,10 @@ At first sight, these two flags don’t seem to be related —i.e affect each ot
 
 # Demo
 
-<video width="320" height="240" controls>
+![PoC](https://github.com/user-attachments/assets/0be530c4-bc11-4753-9c57-6859370228b7)
+<!--<video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/0be530c4-bc11-4753-9c57-6859370228b7" type="video/mp4">
-</video>
+</video>-->
 
 ```python
 from flask import Flask, request, redirect
