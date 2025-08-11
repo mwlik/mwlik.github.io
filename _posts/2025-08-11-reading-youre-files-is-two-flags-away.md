@@ -63,9 +63,11 @@ At first sight, these two flags don’t seem to be related —i.e affect each ot
 
 # Demo
 
-<video width="320" height="240" controls>
+<center>
+<video height="400" controls>
   <source src="https://github.com/user-attachments/assets/0be530c4-bc11-4753-9c57-6859370228b7" type="video/mp4">
 </video>
+</center>>
 
 ```python
 {% raw %}
@@ -176,16 +178,20 @@ Interestingly the usage of this pair of flags is [“common”](https://github.c
 
 Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless you open a new tab, huh?!, yes look take a look.
 
-<video width="320" height="240" controls>
+<center>
+<video height="400" controls>
   <source src="https://github.com/user-attachments/assets/6e26b0e9-9a18-4245-9637-4d789014a6d9" type="video/mp4">
 </video>
 
 *Without new tab*
+</center>
 
-<video width="320" height="240" controls>
+<center>
+<video height="400" controls>
   <source src="https://github.com/user-attachments/assets/933adf44-13ee-4645-87b7-c9e2e2c712a9" type="video/mp4">
 </video>
 
 *With new tab*
+</center>
 
 Can this be bypassed? I tried so much ways but failed to do so, I let this to the security community.
