@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Reading you’re files is two ~~steps~~ flags away
-subtitle: Vibe coding...
+title: Reading your files is two ~~steps~~ flags away
 mathjax: true
 share-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
 cover-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
@@ -9,7 +8,7 @@ tags: [Exploitation]
 author: M411K
 ---
 
-So while I was doing an internal pentest (grey box), I came across this snippet of code:
+So while I was doing some internal source code reviewing, I came across this snippet of code:
 
 ```jsx
             browser = await puppeteer.launch({
