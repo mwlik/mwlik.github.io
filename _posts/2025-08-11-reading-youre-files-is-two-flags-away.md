@@ -63,12 +63,12 @@ At first sight, these two flags don’t seem to be related —i.e affect each ot
 
 # Demo
 
-![PoC](https://github.com/user-attachments/assets/0be530c4-bc11-4753-9c57-6859370228b7)
-<!--<video width="320" height="240" controls>
+<video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/0be530c4-bc11-4753-9c57-6859370228b7" type="video/mp4">
-</video>-->
+</video>
 
 ```python
+{% raw %}
 from flask import Flask, request, redirect
 
 app = Flask(__name__)
@@ -165,6 +165,7 @@ def home():
 
 if __name__ == '__main__':
     app.run(port=5500)
+{% endraw %}
 ```
 
 The server’s code is pretty straight forward, since the `http://` can’t load another file (in contrast to opening it), I open another file since a `file://` can access another `file://`.
@@ -175,17 +176,15 @@ Interestingly the usage of this pair of flags is [“common”](https://github.c
 
 Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless you open a new tab, huh?!, yes look take a look.
 
-![Without new tab](https://github.com/user-attachments/assets/6e26b0e9-9a18-4245-9637-4d789014a6d9)
-<!--<video width="320" height="240" controls>
+<video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/6e26b0e9-9a18-4245-9637-4d789014a6d9" type="video/mp4">
-</video> -->
+</video>
 
 *Without new tab*
 
-![With new tab](https://github.com/user-attachments/assets/933adf44-13ee-4645-87b7-c9e2e2c712a9)
-<!-- <video width="320" height="240" controls>
+<video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/933adf44-13ee-4645-87b7-c9e2e2c712a9" type="video/mp4">
-</video> -->
+</video>
 
 *With new tab*
 
