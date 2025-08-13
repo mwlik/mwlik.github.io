@@ -199,4 +199,4 @@ Like it wasn’t weird enough, the exploit doesn’t work in puppeteer unless yo
 <em>With new tab</em>
 </center>
 
-Can this be bypassed? I tried so much ways but failed to do so, I let this to the security community.
+Can this be bypassed? I tried so many ways but failed to do so, I let this to the security community.
