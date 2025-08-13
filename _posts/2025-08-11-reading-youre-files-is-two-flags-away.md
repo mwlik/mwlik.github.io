@@ -54,9 +54,16 @@ Okay, let me guess what was prompt: *“Gimme a code that runs a browser blazing
 
 Anyway, this excellent vibe coder give me a chance to explore an interesting quirk of using these two flags (`--disable-web-security` & `--single-process`).
 
-| --single-process [⊗](https://peter.sh/experiments/chromium-command-line-switches/#single-process) | Runs the renderer and plugins in the same process as the browser [↪](https://source.chromium.org/chromium/chromium/src/+/main:content/public/common/content_switches.cc?q=kSingleProcess&ss=chromium) |
-| --- | --- |
-| --disable-web-security [⊗](https://peter.sh/experiments/chromium-command-line-switches/#disable-web-security) | Don't enforce the same-origin policy; meant for website testing only. This switch has no effect unless --user-data-dir (as defined by the content embedder) is also present. [↪](https://source.chromium.org/chromium/chromium/src/+/main:content/public/common/content_switches.cc?q=kDisableWebSecurity&ss=chromium) |
+<table>
+  <tr>
+    <th>--single-process <a href="https://peter.sh/experiments/chromium-command-line-switches/#single-process">⊗</a></th>
+    <th>Runs the renderer and plugins in the same process as the browser [↪](https://source.chromium.org/chromium/chromium/src/+/main:content/public/common/content_switches.cc?q=kSingleProcess&ss=chromium)</th>
+  </tr>
+  <tr>
+    <td>--disable-web-security <a href="https://peter.sh/experiments/chromium-command-line-switches/#disable-web-security">⊗</a></td>
+    <td>Don't enforce the <a href="https://en.wikipedia.org/wiki/Same-origin_policy">same-origin policy</a>; meant for website testing only. This switch has no effect unless --user-data-dir (as defined by the content embedder) is also present. <a href="https://source.chromium.org/chromium/chromium/src/+/main:content/public/common/content_switches.cc?q=kDisableWebSecurity&ss=chromium">↪</a></td>
+  </tr>
+</table>
 
 At first sight, these two flags don’t seem to be related —i.e affect each other, but interestingly they enable any website, to access local files, how you say, I don’t know exactly why, but `open`-ing a local file using `—-disable-web-security`  only redirects to `about:blank#blocked` , but adding the `--single-process` flag, it successfully opens the file, thus enabling the access to local files by remote websites.
 
