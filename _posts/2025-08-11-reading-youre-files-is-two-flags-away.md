@@ -57,7 +57,7 @@ Anyway, this excellent vibe coder give me a chance to explore an interesting qui
 <table>
   <tr>
     <th>--single-process <a href="https://peter.sh/experiments/chromium-command-line-switches/#single-process">⊗</a></th>
-    <th>Runs the renderer and plugins in the same process as the browser [↪](https://source.chromium.org/chromium/chromium/src/+/main:content/public/common/content_switches.cc?q=kSingleProcess&ss=chromium)</th>
+    <th>Runs the renderer and plugins in the same process as the browser <a href="https://source.chromium.org/chromium/chromium/src/+/main:content/public/common/content_switches.cc?q=kSingleProcess&ss=chromium">↪</a></th>
   </tr>
   <tr>
     <td>--disable-web-security <a href="https://peter.sh/experiments/chromium-command-line-switches/#disable-web-security">⊗</a></td>
