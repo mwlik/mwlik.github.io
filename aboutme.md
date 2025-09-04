@@ -4,7 +4,7 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
-Hi, am m411k 🔻, I do computer science and I love hacking.
+Hi, I am m411k 🔻, I do computer science and I love hacking.
 
 # Security Advisories
 
