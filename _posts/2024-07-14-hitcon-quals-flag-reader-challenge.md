@@ -6,7 +6,7 @@ mathjax: true
 cover-img: https://github.com/user-attachments/assets/53372e64-27e6-4c71-82de-1652d25cd300
 share-img: https://github.com/user-attachments/assets/53372e64-27e6-4c71-82de-1652d25cd300
 tags: [CTFs Writeups, Misc]
-author: M411K
+author: m411k
 ---
 
 ## Flag Reader = 23 solves

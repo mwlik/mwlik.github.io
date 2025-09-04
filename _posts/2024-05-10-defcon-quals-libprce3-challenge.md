@@ -6,7 +6,7 @@ mathjax: true
 share-img: https://github.com/user-attachments/assets/5f57e9f7-9542-4b5e-b8eb-e021da4f5548
 cover-img: https://github.com/user-attachments/assets/5f57e9f7-9542-4b5e-b8eb-e021da4f5548
 tags: [CTFs Writeups, Exploitation]
-author: M411K
+author: m411k
 ---
 
 ## libprce3 ≈ 47 solves

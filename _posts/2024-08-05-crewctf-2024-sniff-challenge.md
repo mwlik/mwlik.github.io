@@ -6,7 +6,7 @@ mathjax: true
 cover-img: https://github.com/user-attachments/assets/4515ddb7-b48d-4a6a-b583-8bfdcc101dc8
 share-img: https://github.com/user-attachments/assets/4515ddb7-b48d-4a6a-b583-8bfdcc101dc8
 tags: [CTFs Writeups, Hardware]
-author: M411K
+author: m411k
 ---
 
 ## Sniff One = 27 solves, Sniff Two = 16 solves

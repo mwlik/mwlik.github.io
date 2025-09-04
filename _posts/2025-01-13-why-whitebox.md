@@ -4,7 +4,7 @@ title: Why Whitebox?
 subtitle: Why Whitebox is a Smarter Choice
 mathjax: true
 tags: [Rants]
-author: M411K
+author: m411k
 ---
 
 This is meant to be more of a rant than an essay, but I’ll try to be as articulate as I can.

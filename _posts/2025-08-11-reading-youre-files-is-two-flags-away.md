@@ -6,7 +6,7 @@ mathjax: true
 share-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
 cover-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
 tags: [Exploitation]
-author: M411K
+author: m411k
 ---
 
 So while I was doing some internal source code reviewing, I came across this snippet of code:
