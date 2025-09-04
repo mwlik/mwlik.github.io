@@ -4,12 +4,13 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
-Hi! my name is m411k 🔻, I do computer science and I love hacking.
+Hi, am m411k 🔻, I do computer science and I love hacking.
 
 # Security Advisories
 
-- [`GHSA-hq75-xg7r-rx6c`](https://github.com/Bekacru/better-call/security/advisories/GHSA-hq75-xg7r-rx6c) - Routing Bug Can Lead to Cache Deception in [better-call](https://www.npmjs.com/package/better-call) <img src="https://img.shields.io/npm/dm/better-call" alt="npm downloads" style="display: inline;" />
+- [`GHSA-9hp6-4448-45g2/CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2) - Flaw in URL path parsing could cause path confusion in [Hono](https://www.npmjs.com/package/hono) <img src="https://img.shields.io/npm/dm/hono" alt="npm downloads" style="display: inline;" />
 - [`GHSA-36rg-gfq2-3h56/CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56) - Open Redirect Vulnerability in originCheck Middleware Affects Multiple Routes in [better-auth](https://www.npmjs.com/package/better-auth) <img src="https://img.shields.io/npm/dm/better-auth" alt="npm downloads" style="display: inline;" />
+- [`GHSA-hq75-xg7r-rx6c`](https://github.com/Bekacru/better-call/security/advisories/GHSA-hq75-xg7r-rx6c) - Routing Bug Can Lead to Cache Deception in [better-call](https://www.npmjs.com/package/better-call) <img src="https://img.shields.io/npm/dm/better-call" alt="npm downloads" style="display: inline;" />
 
 # Bounties
 
