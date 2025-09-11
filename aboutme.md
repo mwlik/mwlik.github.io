@@ -14,7 +14,7 @@ Hi, I am m411k 🔻, I do computer science and I love hacking.
 
 # Bounties
 
-- [Account Takeover](https://x.com/m411k_/status/1935993631921312253) - $4,500 (Collaborated with nyly & S0nG0ku).
+- [Account Takeover in a Multimillion Users Entertainment Platform](https://x.com/m411k_/status/1935993631921312253) - $4,500 (Collaborated with nyly & S0nG0ku).
 
 # N.B.
 
