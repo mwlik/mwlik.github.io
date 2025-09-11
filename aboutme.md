@@ -18,7 +18,7 @@ Hi, I am m411k 🔻, I do computer science and I love hacking.
 
 # N.B.
 
-All external resources mentioned in my articles are included solely for their technical content; the views, backgrounds, or actions of the creators do not reflect my endorsement.
+All external resources mentioned in all of my writings are included solely for their technical content; the views, backgrounds, or actions of the creators do not reflect my endorsement.
 
 # Public PGP key
 
