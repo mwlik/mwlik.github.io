@@ -4,8 +4,6 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
-I profit from people's mistakes, A.K.A *hacker*.
-
 # Security Advisories
 
 - [`CVE-2025-58362/GHSA-9hp6-4448-45g2`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2) - Flaw in URL path parsing could cause path confusion in [Hono](https://www.npmjs.com/package/hono).
