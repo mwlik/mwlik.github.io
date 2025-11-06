@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading your files is two ~~steps~~ flags away
-subtitle: Don't _vibe_ code flags!
+subtitle: Never _vibe_ code flags!
 mathjax: true
 share-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
 cover-img: https://github.com/user-attachments/assets/eb9fb52c-d320-402e-9e38-f0d95edda333
