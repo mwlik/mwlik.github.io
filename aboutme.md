@@ -6,6 +6,8 @@ subtitle: ‎0x4141414141414141
 
 # Security Advisories
 
+- [`CVE-2026-22256`](https://github.com/honojs/hono/security/advisories/GHSA-rjf8-2wcw-f6mp) [Salvo](https://github.com/salvo-rs/salvo) is vulnerable to reflected XSS in the list_html function.
+- [`CVE-2026-22257`](https://github.com/honojs/hono/security/advisories/GHSA-54m3-5fxr-2f3j) [Salvo](https://github.com/salvo-rs/salvo) is vulnerable to stored XSS in the list_html function by uploading files with malicious names.
 - [`CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2) - Flaw in URL path parsing could cause path confusion in [Hono](https://www.npmjs.com/package/hono).
 - [`CVE-2025-59139`](https://github.com/honojs/hono/security/advisories/GHSA-92vj-g62v-jqhh) - Body Limit Middleware Bypass in [Hono](https://www.npmjs.com/package/hono).
 - [`CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56) - Open Redirect Vulnerability in originCheck Middleware Affects Multiple Routes in [better-auth](https://www.npmjs.com/package/better-auth).
