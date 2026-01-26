@@ -41,6 +41,6 @@ The regexes seems to be sufficient, alas the third regex (`/^https:\/\/business\
 
 <center>
 <video height="400" controls style="max-width: 90vw;">
-  <source src="https://github.com/user-attachments/assets/bebf5668-2f53-487c-89cf-53478589ef9f" type="video/mp4">
+  <source src="/assets/img/PoC.mov" type="video/mp4">
 </video>
 </center>
