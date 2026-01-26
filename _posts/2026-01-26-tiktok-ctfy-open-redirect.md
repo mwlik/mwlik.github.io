@@ -43,4 +43,5 @@ The regexes seems to be sufficient, alas the third regex (`/^https:\/\/business\
 <video height="400" controls style="max-width: 90vw;">
   <source src="/assets/img/PoC.mov" type="video/mp4">
 </video>
+<em><code>https://www.tiktok.com/login?redirect_url=https://business.tiktokshop.com@example.com</code></em>
 </center>
