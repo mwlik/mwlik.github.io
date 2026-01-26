@@ -6,7 +6,7 @@ subtitle: ‎0x4141414141414141
 
 # Security Advisories
 
-- [`CVE-2026-22256`](https://github.com/honojs/hono/security/advisories/GHSA-rjf8-2wcw-f6mp) - Arbitrary file write via a non-default configuration in [python-multipart](https://github.com/Kludex/python-multipart).
+- [`CVE-2026-24486`](https://github.com/Kludex/python-multipart/security/advisories/GHSA-wp53-j4wj-2cfg) - Arbitrary file write via a non-default configuration in [python-multipart](https://github.com/Kludex/python-multipart).
 - [`CVE-2026-22256`](https://github.com/honojs/hono/security/advisories/GHSA-rjf8-2wcw-f6mp) - [Salvo](https://github.com/salvo-rs/salvo) is vulnerable to reflected XSS in the list_html function.
 - [`CVE-2026-22257`](https://github.com/honojs/hono/security/advisories/GHSA-54m3-5fxr-2f3j) - [Salvo](https://github.com/salvo-rs/salvo) is vulnerable to stored XSS in the list_html function by uploading files with malicious names.
 - [`CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2) - Flaw in URL path parsing could cause path confusion in [Hono](https://www.npmjs.com/package/hono).
