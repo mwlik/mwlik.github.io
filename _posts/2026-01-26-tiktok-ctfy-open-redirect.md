@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tiktok Open redirect
+title: Tiktok Open Redirect
 subtitle: Watch your Regexes!
 mathjax: true
 share-img: https://github.com/user-attachments/assets/b0372bec-de72-489c-941e-1571c3768e11
