@@ -47,3 +47,5 @@ The regexes seems to be sufficient, alas the third regex (`/^https:\/\/business\
 <br />
 <code>https://www.tiktok.com/login?redirect_url=https://business.tiktokshop.com@example.com</code>
 </center>
+
+_Note that I personally won't be bug hunting in Tiktok's program since it's last [aquisition](https://finance.yahoo.com/news/oracle-tiktok-win-isn-t-181500462.html)_.
