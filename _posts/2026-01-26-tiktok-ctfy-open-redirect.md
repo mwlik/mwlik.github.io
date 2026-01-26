@@ -35,7 +35,7 @@ u =
 // ...
 ```
 
-The regexes seems to be sufficient, alas the third regex (`/^https:\/\/business\.tiktokshop\.com(\/.*)?/`) is particulary interesting since it doesn't mandate a trailing slash (`/`), nor does it mandate the to finish by `.com` i.e. by adding a trailing dollar sign (`$`), this opens the door for a textbook trick known by most bug hunters/CTF players, which is that a URI (as defined in the [RFC](https://datatracker.ietf.org/doc/html/rfc3986#section-3.2)) can contain a `userinfo` part which is seperated from the `host` by an at (`@`), so a browser that parses this url for example `https://business.tiktokshop.com@example.com` will process `example.com` as the host, thus bypassing the intended checks.
+The regexes seems to be sufficient, alas the third regex (`/^https:\/\/business\.tiktokshop\.com(\/.*)?/`) is particulary interesting since it doesn't mandate a trailing slash (`/`), nor does it mandate it to finish by `.com` i.e. by adding a trailing dollar sign (`$`), this opens the door for a textbook trick known by most bug hunters/CTF players, which is that a URI (as defined in the [RFC](https://datatracker.ietf.org/doc/html/rfc3986#section-3.2)) can contain a `userinfo` part which is seperated from the `host` by an at (`@`), so a browser that parses this url for example `https://business.tiktokshop.com@example.com` will process `example.com` as the host, thus bypassing the intended checks.
 
 # PoC
 
