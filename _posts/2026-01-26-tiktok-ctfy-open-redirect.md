@@ -11,7 +11,7 @@ author: m411k
 
 Quick lesson why you should mind your regexes.
 
-<center><em>Note this was reported (in collaboration with nyly and s0ng0ku) 8 months ago to Tiktok with no apparent fix published, beware of this bug!</em></center>
+<center><em>Note this was reported (in collaboration with nyly and s0ng0ku) 8 months ago to Tiktok with no apparent fix published, beware not to be spammed by this bug!</em></center>
 
 Apparently Tiktok's login page uses a query parameter `redirect_url` to save where it should return after a successful login attempt, alack a check is implemented to `redirect_url` to make sure it's a trusted origin and thus prevent [open redirect attacks](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html), the check goes as follows (the code is minified/obfuscated since it's in production a *common practice*):
 
