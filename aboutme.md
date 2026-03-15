@@ -18,10 +18,12 @@ Offensive security researcher focused on web and browser exploitation. Passionat
 
 # Bounties
 
-<em style="position: absolute;">Co-reported 4 critical bugs</em>
+<div><em style="position: absolute;">Co-reported 4 critical bugs</em>
 
 
 .
+</div>
+
 
 - [Account takeover via XSS in a multi-million-user website](https://x.com/m411k_/status/1935993631921312253), reported through a private program ($4,500 bounty).
 - Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($2,000 bounty).
