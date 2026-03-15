@@ -4,6 +4,8 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
+Offensive security researcher focused on web and browser exploitation. Passionate about uncovering, reproducing, and tinkering with intricate bugs in high-impact, widely used software.
+
 # Security Advisories
 
 - [`CVE-2026-24486`](https://github.com/Kludex/python-multipart/security/advisories/GHSA-wp53-j4wj-2cfg) - Arbitrary file write via a non-default configuration in [python-multipart](https://github.com/Kludex/python-multipart).
@@ -16,7 +18,19 @@ subtitle: ‎0x4141414141414141
 
 # Bounties
 
-- [Account Takeover in a Multimillion User Entertainment Platform](https://x.com/m411k_/status/1935993631921312253) - $4,500 (Collaborated with nyly & S0nG0ku).
+_Co-reported 4 critical bugs_
+
+- [Account takeover via XSS in a multi-million-user website](https://x.com/m411k_/status/1935993631921312253), reported through a private program ($4,500 bounty).
+- Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($2,000 bounty).
+- Web2/XSS in the basic HTML paywall in `@x402/express`, `@x402/hono`, `@x402/next` packages can lead to ATO or Funds Stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($200; severity dispute).
+- NULL pointer dereference in a blockchain library allowing full denial of service, reported through a private program ($400; scope dispute).
+
+# CTF Experience (Awards)
+
+- Cyber Odyssey 2024: Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
+- MCSC National CTF 2024: Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
+- NULL Hat Morocco 2025: Secured the second place with my team FC2MK focusing on Web challenges.
+- The International Days of Ethical Hacking (IDEH) v7 CTF: Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
 
 # N.B.
 
