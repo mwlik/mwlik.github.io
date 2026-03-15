@@ -17,7 +17,12 @@ Offensive security researcher focused on web and browser exploitation. Passionat
 - [`GHSA-hq75-xg7r-rx6c`](https://github.com/Bekacru/better-call/security/advisories/GHSA-hq75-xg7r-rx6c) - Routing Bug Can Lead to Cache Deception in [better-call](https://www.npmjs.com/package/better-call).
 
 # Bounties
-<em style="bottom-margin: -2em">Co-reported 4 critical bugs</em>
+
+<em style="position: absolute;">Co-reported 4 critical bugs</em>
+
+
+.
+
 - [Account takeover via XSS in a multi-million-user website](https://x.com/m411k_/status/1935993631921312253), reported through a private program ($4,500 bounty).
 - Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($2,000 bounty).
 - Web2/XSS in the basic HTML paywall in `@x402/express`, `@x402/hono`, `@x402/next` packages can lead to ATO or Funds Stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($200; severity dispute).
