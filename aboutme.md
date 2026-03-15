@@ -27,10 +27,10 @@ _Co-reported 4 critical bugs_
 
 # CTF Experience (Awards)
 
-- Cyber Odyssey 2024: Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
-- MCSC National CTF 2024: Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
-- NULL Hat Morocco 2025: Secured the second place with my team FC2MK focusing on Web challenges.
-- The International Days of Ethical Hacking (IDEH) v7 CTF: Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
+- **Cyber Odyssey 2024**: Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
+- **MCSC National CTF 2024**: Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
+- **NULL Hat Morocco 2025**: Secured the second place with my team FC2MK focusing on Web challenges.
+- **The International Days of Ethical Hacking (IDEH) v7 CTF**: Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
 
 # N.B.
 
