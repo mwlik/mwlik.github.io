@@ -21,7 +21,7 @@ Offensive security researcher focused on web and browser exploitation. Passionat
 <div><em style="position: absolute;">Co-reported 4 critical bugs</em>
 
 
-.
+&#8203;
 </div>
 
 
