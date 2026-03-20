@@ -2,4 +2,13 @@
 layout: home
 title: My Modest Blog
 subtitle: This is where you can find research articles, CTFs challenges writeups, off topic blogs, and more.
+show_secret_home_button: true
+secret_home_url: /secret/
+exclude_category: secret
 ---
+
+{% if page.show_secret_home_button %}
+<p class="text-center my-3">
+  <a class="btn btn-primary" href="{{ page.secret_home_url | relative_url }}">Other writings</a>
+</p>
+{% endif %}
