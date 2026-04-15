@@ -32,7 +32,7 @@ Install the sources, then run these commands:
 
 In the attachments, we we're given this:
 
-![attachments](/assets/img/defcon_quals_libprce3_imgs/attachments.png){: .mx-auto.d-block :}
+![attachments](/assets/img/defcon_quals_libprce3_assets/attachments.png){: .mx-auto.d-block :}
 
 And a link to a site that uses nginx in its routing, thus the role of `prce` - of pattern matching functionnality of nginx - enters here.
 here is a part of the `nginx.conf` file:
@@ -50,15 +50,15 @@ here is a part of the `nginx.conf` file:
 
 The name (`libprce3`) was indicating something related to the recent `liblzma` backdoor, so the reasonable thing to do, is to compare the given library folder with the original source, doing that and diffing the differences (`git diff`) shows a sus line:
 
-![diff sus line](/assets/img/defcon_quals_libprce3_imgs/diff_sus_line.png){: .mx-auto.d-block :}
+![diff sus line](/assets/img/defcon_quals_libprce3_assets/diff_sus_line.png){: .mx-auto.d-block :}
 
 It just seemed to unreadable to be legit, plus it seemed like the adjacent scenario of `liblzma`.
 
 afer extracting the lines from the `makevp.bat` - where it was found - and then running it we get this output.
 
-![reveal_backdoor_sh](/assets/img/defcon_quals_libprce3_imgs/reveal_backdoor_sh.png){: .mx-auto.d-block :}
+![reveal_backdoor_sh](/assets/img/defcon_quals_libprce3_assets/reveal_backdoor_sh.png){: .mx-auto.d-block :}
 
-![reveal_backdoor_sh_output](/assets/img/defcon_quals_libprce3_imgs/reveal_backdoor_sh_output.png){: .mx-auto.d-block :}
+![reveal_backdoor_sh_output](/assets/img/defcon_quals_libprce3_assets/reveal_backdoor_sh_output.png){: .mx-auto.d-block :}
 
 decoding the base64 gives us this content:
 
@@ -169,7 +169,7 @@ chmod +x cleanup-tests; make $@
 
 so it creates the patch file `cleaup-tests`, and when returning back to the `makevp.bat` the line `cleanup-tests @a` makes since now:
 
-![makevp_bat](/assets/img/defcon_quals_libprce3_imgs/makevp_bat.png){: .mx-auto.d-block :}
+![makevp_bat](/assets/img/defcon_quals_libprce3_assets/makevp_bat.png){: .mx-auto.d-block :}
 
 The contents that gets added are:
 
@@ -307,7 +307,7 @@ after running these commands individually, we understand that `alph` equal to ki
 
 and as shown in this picture:
 
-![nginx_version_burp](/assets/img/defcon_quals_libprce3_imgs/nginx_version_burp.png){: .mx-auto.d-block :}
+![nginx_version_burp](/assets/img/defcon_quals_libprce3_assets/nginx_version_burp.png){: .mx-auto.d-block :}
 
 so by running this script:
 
@@ -335,8 +335,8 @@ which if you have some knowledge of bash, you'll know that when bash parses $som
 
 So with that said, I've settuped my `ngrok`, opened a port to listen to, and...:
 
-![burp_request](/assets/img/defcon_quals_libprce3_imgs/burp_request.png){: .mx-auto.d-block :}
+![burp_request](/assets/img/defcon_quals_libprce3_assets/burp_request.png){: .mx-auto.d-block :}
 
-![The Flag](/assets/img/defcon_quals_libprce3_imgs/flag.png){: .mx-auto.d-block :}
+![The Flag](/assets/img/defcon_quals_libprce3_assets/flag.png){: .mx-auto.d-block :}
 
 Et voila!
