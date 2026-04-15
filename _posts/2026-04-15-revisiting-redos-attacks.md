@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Revisiting ReDoS Attacks
-subtitle: Watch your regexes!
+subtitle: Again! Watch your regexes!
 mathjax: true
 tags: [Web, Exploitation]
 author: m411k
