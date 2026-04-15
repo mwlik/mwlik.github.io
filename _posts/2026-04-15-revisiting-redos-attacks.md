@@ -40,7 +40,12 @@ Couldn’t be easier.
 
 Since this package is used by packages like `class-validator`, that's used by `NestJS` framework, our PoC uses that former package but it could also work with other [dependencies](https://www.npmleaderboard.org/).
 
-[poc2.mkv](/assets/img/redos_assets/poc2.mkv)
+<center>
+<br />
+<video height="400" controls style="max-width: 90vw;">
+  <source src="/assets/img/redos_assets/poc2.mkv" type="video/mp4">
+</video>
+</center>
 
 ### Disclosure
 
