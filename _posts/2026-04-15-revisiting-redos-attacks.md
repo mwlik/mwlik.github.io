@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Revisiting ReDoS Attacks
-subtitle: CVE-2025-10891 RCE PoC
+subtitle: Watch your regexes!
 mathjax: true
 share-img: https://github.com/user-attachments/assets/dd2df0b1-a154-40fd-a0ed-b6c8f9c769c6
 cover-img: https://github.com/user-attachments/assets/dd2df0b1-a154-40fd-a0ed-b6c8f9c769c6
