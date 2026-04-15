@@ -3,8 +3,6 @@ layout: post
 title: Revisiting ReDoS Attacks
 subtitle: Watch your regexes!
 mathjax: true
-share-img: https://github.com/user-attachments/assets/dd2df0b1-a154-40fd-a0ed-b6c8f9c769c6
-cover-img: https://github.com/user-attachments/assets/dd2df0b1-a154-40fd-a0ed-b6c8f9c769c6
 tags: [Web, Exploitation]
 author: m411k
 ---
