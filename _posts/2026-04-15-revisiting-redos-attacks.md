@@ -135,17 +135,17 @@ The vulnerable snippet of code is the following:
 ```jsx
 // ...
 const pat3Floats = /(\-?\d+\.?[\d\-\+e]*)\s+(\-?\d+\.?[\d\-\+e]*)\s+(\-?\d+\.?[\d\-\+e]*)/g;
-				// ...
-				while ( ( result = pat3Floats.exec( line ) ) !== null ) {
+// ...
+while ( ( result = pat3Floats.exec( line ) ) !== null ) {
 
-						if ( patWord.exec( line ) !== null ) break;
+        if ( patWord.exec( line ) !== null ) break;
 
-						const x = parseFloat( result[ 1 ] );
-						const y = parseFloat( result[ 2 ] );
-						const z = parseFloat( result[ 3 ] );
-						positions.push( x, y, z );
+        const x = parseFloat( result[ 1 ] );
+        const y = parseFloat( result[ 2 ] );
+        const z = parseFloat( result[ 3 ] );
+        positions.push( x, y, z );
 
-					}
+    }
 // ...
 ```
 
