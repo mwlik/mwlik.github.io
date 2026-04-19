@@ -9,6 +9,9 @@ tags: [Exploitation]
 author: m411k
 ---
 
+* TOC
+{:toc}
+
 So while I was doing some internal source code reviewing, I came across this snippet of code:
 
 ```jsx

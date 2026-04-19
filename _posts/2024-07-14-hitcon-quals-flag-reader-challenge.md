@@ -9,6 +9,9 @@ tags: [CTFs Writeups, Misc]
 author: m411k
 ---
 
+* TOC
+{:toc}
+
 ## Flag Reader = 23 solves
 
 ![image](https://github.com/user-attachments/assets/7934ae2f-42ff-4920-958f-566ae2eff717)

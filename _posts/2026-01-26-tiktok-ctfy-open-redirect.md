@@ -9,6 +9,9 @@ tags: [Web, Rants]
 author: m411k
 ---
 
+* TOC
+{:toc}
+
 Quick lesson why you should mind your regexes.
 
 <center><em>Note this was reported (in collaboration with nyly and s0ng0ku) 8 months ago to Tiktok with no apparent fix published, beware not to be spammed by this bug!</em></center>

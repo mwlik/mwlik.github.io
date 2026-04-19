@@ -9,6 +9,9 @@ tags: [CTFs Writeups, Hardware]
 author: m411k
 ---
 
+* TOC
+{:toc}
+
 ## Sniff One = 27 solves, Sniff Two = 16 solves
 
 <div style="text-align: center;">

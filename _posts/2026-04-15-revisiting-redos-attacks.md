@@ -7,6 +7,9 @@ tags: [Web, Exploitation]
 author: m411k
 ---
 
+* TOC
+{:toc}
+
 # Inception
 
 The inception of this research was kind of a silly story. Basically I was doing an internal audit of one of my employer’s projects, and through the well-known roller coaster a researcher lives in during an audit, I came across this [ReDoS](https://en.wikipedia.org/wiki/ReDoS) attack. DoSes are not commonly of interest for a hacker that wishes for something more entertaining like an RCE, Account Takeovers and others, while on the other hand, a script kiddie might be interested in this family of attacks —non-interestingly, the DDoS variant. Rant aside, the ReDoS variant seemed more intellectually engaging than the others. This led us (me, [Ayoub](https://x.com/Mr_nyly), [Mokhtari](https://x.com/0xmokhtari)) to find this variant in a multitude of software, specifically in the JS world (no surprise ¯\_(ツ)_/¯), and we hope this is a warning call for a more security-aware, wide-view development and assessment).

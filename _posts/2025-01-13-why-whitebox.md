@@ -7,6 +7,9 @@ tags: [Rants]
 author: m411k
 ---
 
+* TOC
+{:toc}
+
 This is meant to be more of a rant than an essay, but I’ll try to be as articulate as I can.
 
 # Definitions
