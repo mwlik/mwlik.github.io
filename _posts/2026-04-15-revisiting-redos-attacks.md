@@ -21,7 +21,7 @@ These findings wouldn’t been possible for what previous researchers have done 
 
 # Findings
 
-## **libphonenumber-js *(≈ 12M weekly downloads)***
+## libphonenumber-js (*≈ 12M weekly downloads*)
 
 One of the first target was the [libphonenumber-js](https://www.npmjs.com/package/libphonenumber-js) package, we didn’t got to it directly, it started with a [NestJS](https://github.com/nestjs/nest) web application that uses [class-validator](https://www.npmjs.com/package/class-validator)’s `IsPhoneNumber` [decorator](https://www.npmjs.com/package/class-validator#:~:text=is%20a%20locale.-,%40IsPhoneNumber,-(region%3A%20string)) which in [turn uses](https://github.com/typestack/class-validator/blob/977d2c707930db602b6450d0c03ee85c70756f1f/src/decorator/string/IsPhoneNumber.ts#L21) libphonenumber-js’s `parsePhoneNumber` function, this was the source, now to find the vulnerable we have to dig deeper.
 
