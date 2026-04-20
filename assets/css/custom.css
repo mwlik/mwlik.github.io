@@ -3,6 +3,15 @@
   padding-left: 1.5em;
 }
 
+#markdown-toc a {
+  color: #555;
+  text-decoration: none;
+}
+
+#markdown-toc a:hover {
+  color: #0085A1;
+}
+
 #markdown-toc > li::before {
   content: "✽ ";
 }
