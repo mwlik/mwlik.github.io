@@ -6,6 +6,7 @@
 #markdown-toc a {
   color: #555;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #markdown-toc a:hover {
