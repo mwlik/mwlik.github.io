@@ -4,7 +4,7 @@
 }
 
 #markdown-toc > li::before {
-  content: "✻ ";
+  content: "✽ ";
 }
 
 #markdown-toc ul {
@@ -13,5 +13,5 @@
 }
 
 #markdown-toc ul > li::before {
-  content: "✽ ";
+  content: "✻ ";
 }
