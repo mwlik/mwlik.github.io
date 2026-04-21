@@ -10,7 +10,6 @@ Offensive security engineer focused on web and browser exploitation. Passionate 
 
 **[LEET Solutions](https://www.leetsolutions.ma/)** — Morocco — 2024–Present
 *Core Pentester*
-
 - Performed penetration testing on tens of web applications spanning diverse tech stacks and AI-powered solutions for high-profile Moroccan clients, including the ["Marhaba operation"](https://diasporafordevelopment.eu/cpt_practices/marhaba-operation/), [OCP Group](https://www.ocpgroup.ma/en) (Fortune 500 Arabia), and [other big Moroccan companies](https://www.leetsolutions.ma/projects).
 - Findings from engagements led to multiple CVEs in widely-used open-source projects (see Security Advisories), as well as community-recognized security research: ["Revisiting ReDoS Attacks"](https://mwlik.github.io/2026-04-15-revisiting-redos-attacks/) and ["Reading your files is two flags away"](https://mwlik.github.io/2025-08-11-reading-youre-files-is-two-flags-away/).
 - Utilized Burp Suite, Frida, custom discovery tooling, and security-tailored AI agents across assessments.
@@ -25,7 +24,7 @@ Offensive security engineer focused on web and browser exploitation. Passionate 
 - [`CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56): [Better-Auth](https://github.com/better-auth/better-auth) library (~2.8M monthly downloads) — Open redirect affecting authentication flows across multiple routes.
 - [`GHSA-hq75-xg7r-rx6c`](https://github.com/better-auth/better-call/security/advisories/GHSA-hq75-xg7r-rx6c): [Better-Call](https://github.com/Bekacru/better-call) framework (~2.7M monthly downloads) — Routing flaw leading to cache deception attacks.
 
-# Bug Bounty — Reported 4 critical bugs
+# Bug Bounty <small>Reported 4 critical bugs</small>
 
 - Account takeover via XSS in a multi-million-user website, reported through a private program ($4,500 bounty).
 - Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [Coinbase's x402 protocol](https://github.com/coinbase/x402) ($2,000 bounty).
