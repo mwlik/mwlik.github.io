@@ -12,7 +12,7 @@
           <a href="https://clustrmaps.com/site/1c1if" target="_blank" title="Visit tracker" style="-webkit-filter: grayscale(100%); filter: grayscale(100%);"><img src="//www.clustrmaps.com/map_v2.png?d=LSyEzeBdZ00trXv8MZnrIi5TuWpWbs6tdTjNmnCYRuc&cl=ffffff"></a>
         </div>
         <p class="copyright text-muted">
-          {% if site.author %} {{ site.author }} &nbsp;&bull;&nbsp; {% endif %}
+          {% if site.social-network-links.email %} <a href="mailto:{{ site.social-network-links.email }}">{{ site.social-network-links.email }}</a> &nbsp;&bull;&nbsp; {% elsif site.author %} {{ site.author }} &nbsp;&bull;&nbsp; {% endif %}
           {{ site.time | date: '%Y' }} {% if site.url-pretty %}
           &nbsp;&bull;&nbsp;
           <span class="author-site">
