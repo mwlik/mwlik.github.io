@@ -4,38 +4,50 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
-Offensive security researcher focused on web and browser exploitation. Passionate about uncovering, reproducing, and tinkering with intricate bugs in high-impact, widely used software.
+Offensive security engineer focused on web and browser exploitation. Passionate about uncovering, reproducing, and tinkering with intricate bugs in high-impact, widely used software.
+
+# Work Experience
+
+**[LEET Solutions](https://www.leetsolutions.ma/)** — Morocco — 2024–Present
+*Core Pentester*
+
+- Performed penetration testing on tens of web applications spanning diverse tech stacks and AI-powered solutions for high-profile Moroccan clients, including the ["Marhaba operation"](https://diasporafordevelopment.eu/cpt_practices/marhaba-operation/), [OCP Group](https://www.ocpgroup.ma/en) (Fortune 500 Arabia), and [other big Moroccan companies](https://www.leetsolutions.ma/projects).
+- Findings from engagements led to multiple CVEs in widely-used open-source projects (see Security Advisories), as well as community-recognized security research: ["Revisiting ReDoS Attacks"](https://mwlik.github.io/2026-04-15-revisiting-redos-attacks/) and ["Reading your files is two flags away"](https://mwlik.github.io/2025-08-11-reading-youre-files-is-two-flags-away/).
+- Utilized Burp Suite, Frida, custom discovery tooling, and security-tailored AI agents across assessments.
 
 # Security Advisories
 
-- [`CVE-2026-24486`](https://github.com/Kludex/python-multipart/security/advisories/GHSA-wp53-j4wj-2cfg) - Arbitrary file write via a non-default configuration in [python-multipart](https://github.com/Kludex/python-multipart).
-- [`CVE-2026-22256`](https://github.com/honojs/hono/security/advisories/GHSA-rjf8-2wcw-f6mp) - [Salvo](https://github.com/salvo-rs/salvo) is vulnerable to reflected XSS in the list_html function.
-- [`CVE-2026-22257`](https://github.com/honojs/hono/security/advisories/GHSA-54m3-5fxr-2f3j) - [Salvo](https://github.com/salvo-rs/salvo) is vulnerable to stored XSS in the list_html function by uploading files with malicious names.
-- [`CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2) - Flaw in URL path parsing could cause path confusion in [Hono](https://www.npmjs.com/package/hono).
-- [`CVE-2025-59139`](https://github.com/honojs/hono/security/advisories/GHSA-92vj-g62v-jqhh) - Body Limit Middleware Bypass in [Hono](https://www.npmjs.com/package/hono).
-- [`CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56) - Open Redirect Vulnerability in originCheck Middleware Affects Multiple Routes in [better-auth](https://www.npmjs.com/package/better-auth).
-- [`GHSA-hq75-xg7r-rx6c`](https://github.com/Bekacru/better-call/security/advisories/GHSA-hq75-xg7r-rx6c) - Routing Bug Can Lead to Cache Deception in [better-call](https://www.npmjs.com/package/better-call).
+- [`CVE-2026-24486`](https://github.com/Kludex/python-multipart/security/advisories/GHSA-wp53-j4wj-2cfg): [python-multipart](https://github.com/Kludex/python-multipart), used by FastAPI (~tens of millions of downloads) — Arbitrary file write via a non-default configuration.
+- [`CVE-2026-22256`](https://github.com/salvo-rs/salvo/security/advisories/GHSA-rjf8-2wcw-f6mp): [Salvo](https://github.com/salvo-rs/salvo) web framework — Reflected XSS allowing arbitrary JavaScript execution in victims' browsers.
+- [`CVE-2026-22257`](https://github.com/salvo-rs/salvo/security/advisories/GHSA-8j5r-5j5r-5j5r): [Salvo](https://github.com/salvo-rs/salvo) web framework — Stored XSS via malicious file uploads, enabling persistent code execution.
+- [`CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2): [Hono](https://github.com/honojs/hono) web framework (~27M monthly downloads) — Path confusion flaw allowing bypass of proxy-level access controls (e.g. Nginx).
+- [`CVE-2025-59139`](https://github.com/honojs/hono/security/advisories/GHSA-92vj-g62v-jqhh): [Hono](https://github.com/honojs/hono) web framework (~27M monthly downloads) — HTTP header parsing violation allowing bypass of body size limits.
+- [`CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56): [Better-Auth](https://github.com/better-auth/better-auth) library (~2.8M monthly downloads) — Open redirect affecting authentication flows across multiple routes.
+- [`GHSA-hq75-xg7r-rx6c`](https://github.com/better-auth/better-call/security/advisories/GHSA-hq75-xg7r-rx6c): [Better-Call](https://github.com/Bekacru/better-call) framework (~2.7M monthly downloads) — Routing flaw leading to cache deception attacks.
 
-# Bounties
+# Bug Bounty — Reported 4 critical bugs
 
-<div><em style="position: absolute;">Co-reported 4 critical bugs</em>
-
-
-&#8203;
-</div>
-
-
-- [Account takeover via XSS in a multi-million-user website](https://x.com/m411k_/status/1935993631921312253), reported through a private program ($4,500 bounty).
-- Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($2,000 bounty).
-- Web2/XSS in the basic HTML paywall in `@x402/express`, `@x402/hono`, `@x402/next` packages can lead to ATO or Funds Stealing in [github.com/coinbase/x402](https://github.com/coinbase/x402) ($200; severity dispute).
-- NULL pointer dereference in a blockchain library allowing full denial of service, reported through a private program ($400; scope dispute).
+- Account takeover via XSS in a multi-million-user website, reported through a private program ($4,500 bounty).
+- Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [Coinbase's x402 protocol](https://github.com/coinbase/x402) ($2,000 bounty).
+- Web2/XSS in the basic HTML paywall in `@x402/express`, `@x402/hono`, `@x402/next` packages can lead to ATO or funds stealing in [Coinbase's x402 protocol](https://github.com/coinbase/x402) ($200).
+- NULL pointer dereference in a blockchain library allowing full denial of service ($400).
 
 # CTF Experience (Awards)
 
-- **Cyber Odyssey 2024**: Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
-- **MCSC National CTF 2024**: Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
-- **NULL Hat Morocco 2025**: Secured the second place with my team FC2MK focusing on Web challenges.
-- **The International Days of Ethical Hacking (IDEH) v7 CTF**: Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
+- **Cyber Odyssey 2024:** Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
+- **MCSC National CTF 2024:** Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
+- **NULL Hat Morocco 2025:** Secured second place with my team FC2MK focusing on Web challenges.
+- **The International Days of Ethical Hacking (IDEH) v7 CTF:** Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
+
+# Browser Exploitation Research
+
+- [`CVE-2025-10891`](https://github.com/mwlik/v8-ndays/tree/main/CVE-2025-10891): Reproduced and exploited [Issue 443765373](https://issues.chromium.org/issues/443765373), an integer truncation in Ignition — V8's interpreter — that leads to arbitrary bytecode execution ultimately leading to sandbox renderer process RCE.
+- [`CVE-2023-6702`](https://github.com/mwlik/v8-ndays/tree/main/CVE-2023-6702): Reproduced [Issue 40941600](https://issues.chromium.org/issues/40941600), a type confusion vulnerability in V8 leading to memory corruption and RCE eventually.
+
+# Education
+
+**[1337 Coding School](https://1337.ma/en/) - University Mohammed VI Polytechnic** — Khouribga, Morocco — 2023–2025
+*Software Engineering* — Completed [42](https://www.42network.org/)'s project-based curriculum focused on systems, algorithms, and practical engineering fundamentals.
 
 # N.B.
 
