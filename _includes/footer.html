@@ -13,7 +13,7 @@
         </div>
         <p class="copyright text-muted">
           {% if site.social-network-links.email %} <a href="mailto:{{ site.social-network-links.email }}">{{ site.social-network-links.email }}</a> &nbsp;&bull;&nbsp; {% elsif site.author %} {{ site.author }} &nbsp;&bull;&nbsp; {% endif %}
-          {{ site.time | date: '%Y' }} {% if site.url-pretty %}
+ {% if site.url-pretty %}
           &nbsp;&bull;&nbsp;
           <span class="author-site">
             <a
