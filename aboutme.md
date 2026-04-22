@@ -12,7 +12,6 @@ Offensive security engineer focused on web and browser exploitation. Passionate 
 {: style="margin-bottom: 2px;"}
 - Performed penetration testing on tens of web applications spanning diverse tech stacks and AI-powered solutions for high-profile Moroccan clients, including the ["Marhaba operation"](https://diasporafordevelopment.eu/cpt_practices/marhaba-operation/), [OCP Group](https://www.ocpgroup.ma/en) (Fortune 500 Arabia), and [other big Moroccan companies](https://www.leetsolutions.ma/projects).
 - Findings from engagements led to multiple CVEs in widely-used open-source projects (see Security Advisories), as well as community-recognized security research: ["Revisiting ReDoS Attacks"](https://mwlik.github.io/2026-04-15-revisiting-redos-attacks/) and ["Reading your files is two flags away"](https://mwlik.github.io/2025-08-11-reading-youre-files-is-two-flags-away/).
-- Utilized Burp Suite, Frida, custom discovery tooling, and security-tailored AI agents across assessments.
 
 # Security Advisories
 
