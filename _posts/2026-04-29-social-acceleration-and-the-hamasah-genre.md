@@ -27,7 +27,7 @@ One important thing to note is that this is not the first work of literature in 
 
 Can you notice something?
 
-What you may have noticed is that the Hamasah genre emerged, whether coincidentally or not, alongside the Islamic civilization surge. Can that be a fluke, or is there a theory that can explain such an emergence of short-form content?
+What you may have noticed is that the Hamasah genre emerged, whether coincidentally or not, after the Islamic civilization surge. Can that be a fluke, or is there a theory that can explain such an emergence of short-form content?
 
 # Social Acceleration
 
