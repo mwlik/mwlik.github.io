@@ -36,7 +36,7 @@ This is where whitebox comes in, you're desperate - still necessary - solution f
 
 A more grave misconception is that these two approaches are two separate roads, where as they are actually the same road, with "Blackbox" being the first long-ish part the "Whitebox" being the second part of this road, and you're actually just procrastinating you're security researcher from getting sooner to the second part of the road, because sooner or later (assuming you go with a blackbox approach) the infosec person will get to a level of understanding and familiarity with the system as if you gave em the code from the first off, so you're just actually wasting a large portion of the engagement with a work that could've been avoided with a single attachment.
 
-If you're doubtful of this idea, that giving enough time, you're application's source code is practically exposed, and any sufficiently complex system will eventually be exposed to its edge cases, cf. [Leaky abstraction](https://en.wikipedia.org/wiki/Leaky_abstraction), [Murphy's law](https://en.wikipedia.org/wiki/Murphy%27s_law).
+If you're doubtful of this idea, that giving enough time, you're application's source code is practically exposed, and any sufficiently complex system will eventually be exposed to its edge cases, cf. [Leaky abstraction](https://en.wikipedia.org/wiki/Leaky_abstraction), [Murphy's law](https://en.wikipedia.org/wiki/Murphy%27s_law), [Hyrum's Law](https://www.hyrumslaw.com/).
 
 ## Conclusion
 
