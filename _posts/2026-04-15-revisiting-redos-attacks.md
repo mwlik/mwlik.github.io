@@ -4,7 +4,7 @@ title: Revisiting ReDoS Attacks
 subtitle: Again! Watch your regexes!
 mathjax: true
 tags: [Web, Exploitation]
-author: m411k
+author: m411k, Ayoub, 0xMokhtari
 ---
 
 * TOC
