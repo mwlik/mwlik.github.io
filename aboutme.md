@@ -39,6 +39,7 @@ Offensive security engineer focused on web and browser exploitation. Passionate 
 
 # Browser Exploitation Research
 
+- [`CVE-2026-3910`](https://research.rewritelab.org/2026/06/11/%5BENG%5D%20Pwning%20Chromium%20146%20Renderer%20Process/): Reproduced and chained [Issue 491410818](https://issues.chromium.org/issues/491410818) with [Issue 483092905](https://issues.chromium.org/issues/483092905) and [Issue 485784597](https://issues.chromium.org/issues/485784597) to exploit V8 and compromise the Chromium renderer process (published in RewriteLab).
 - [`CVE-2025-10891`](https://mwlik.github.io/2026-03-01-exploiting-chromium-140-renderer-process/): Reproduced and exploited [Issue 443765373](https://issues.chromium.org/issues/443765373), an integer truncation in Ignition — V8's interpreter — that leads to arbitrary bytecode execution ultimately leading to sandbox renderer process RCE.
 - [`CVE-2023-6702`](https://github.com/mwlik/v8-ndays/tree/main/CVE-2023-6702): Reproduced [Issue 40941600](https://issues.chromium.org/issues/40941600), a type confusion vulnerability in V8 leading to memory corruption and RCE eventually.
 
