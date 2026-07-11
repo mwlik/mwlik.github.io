@@ -168,24 +168,13 @@ a:focus {
   transform: rotate(-6deg);
   opacity: .6;
 }
-.talks-callout__intro {
-  margin: .2rem 0 .9rem;
+.talks-callout__body {
+  margin: .2rem 0;
   font-style: italic;
   color: var(--navbar-text-col);
 }
-.talks-callout__list {
-  margin-bottom: 0;
-  padding-left: 1.1rem;
-}
-.talks-callout__list li {
-  margin-bottom: .55rem;
-}
-.talks-callout__list li:last-child {
-  margin-bottom: 0;
-}
-.talks-callout__date {
-  color: var(--mid-col);
-  font-size: .95rem;
+.talks-callout__body strong {
+  font-style: normal;
 }
 @media (max-width: 500px) {
   .talks-callout {
