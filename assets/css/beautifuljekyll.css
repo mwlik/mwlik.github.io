@@ -144,6 +144,55 @@ a:focus {
   }
 }
 
+/* --- Talks callout (echoes the "Other writings" stamp) --- */
+.talks-callout {
+  position: relative;
+  margin: 2rem 0 2.5rem;
+  padding: 1.4rem 1.6rem 1.1rem;
+  background-color: var(--navbar-col);
+  border-radius: .35rem;
+  border-left: 3px solid var(--navbar-text-col);
+}
+.talks-callout__stamp {
+  position: absolute;
+  top: -.6rem;
+  left: 1.1rem;
+  padding: .1rem .6rem;
+  font-family: var(--header-font);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--navbar-text-col);
+  background-color: var(--page-col);
+  transform: rotate(-6deg);
+  opacity: .6;
+}
+.talks-callout__intro {
+  margin: .2rem 0 .9rem;
+  font-style: italic;
+  color: var(--navbar-text-col);
+}
+.talks-callout__list {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+.talks-callout__list li {
+  margin-bottom: .55rem;
+}
+.talks-callout__list li:last-child {
+  margin-bottom: 0;
+}
+.talks-callout__date {
+  color: var(--mid-col);
+  font-size: .95rem;
+}
+@media (max-width: 500px) {
+  .talks-callout {
+    padding: 1.3rem 1.1rem 1rem;
+  }
+}
+
 blockquote {
   color: var(--mid-col);
   font-style: italic;
