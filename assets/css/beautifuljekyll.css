@@ -144,7 +144,7 @@ a:focus {
   }
 }
 
-/* --- Talks callout (echoes the "Other writings" stamp) --- */
+/* --- Talks callout --- */
 .talks-callout {
   position: relative;
   margin: 2rem 0 2.5rem;
@@ -152,21 +152,6 @@ a:focus {
   background-color: var(--navbar-col);
   border-radius: .35rem;
   border-left: 3px solid var(--navbar-text-col);
-}
-.talks-callout__stamp {
-  position: absolute;
-  top: -.6rem;
-  left: 1.1rem;
-  padding: .1rem .6rem;
-  font-family: var(--header-font);
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-  color: var(--navbar-text-col);
-  background-color: var(--page-col);
-  transform: rotate(-6deg);
-  opacity: .6;
 }
 .talks-callout__body {
   margin: .2rem 0;
