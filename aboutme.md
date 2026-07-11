@@ -15,13 +15,13 @@ Offensive security engineer focused on web and browser exploitation. Passionate 
 
 # Security Advisories
 
-- [`CVE-2026-24486`](https://github.com/Kludex/python-multipart/security/advisories/GHSA-wp53-j4wj-2cfg): [python-multipart](https://github.com/Kludex/python-multipart), used by FastAPI (~tens of millions of downloads) — Arbitrary file write via a non-default configuration.
-- [`CVE-2026-22256`](https://github.com/salvo-rs/salvo/security/advisories/GHSA-rjf8-2wcw-f6mp): [Salvo](https://github.com/salvo-rs/salvo) web framework — Reflected XSS allowing arbitrary JavaScript execution in victims' browsers.
-- [`CVE-2026-22257`](https://github.com/salvo-rs/salvo/security/advisories/GHSA-8j5r-5j5r-5j5r): [Salvo](https://github.com/salvo-rs/salvo) web framework — Stored XSS via malicious file uploads, enabling persistent code execution.
-- [`CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2): [Hono](https://github.com/honojs/hono) web framework (~27M monthly downloads) — Path confusion flaw allowing bypass of proxy-level access controls (e.g. Nginx).
-- [`CVE-2025-59139`](https://github.com/honojs/hono/security/advisories/GHSA-92vj-g62v-jqhh): [Hono](https://github.com/honojs/hono) web framework (~27M monthly downloads) — HTTP header parsing violation allowing bypass of body size limits.
-- [`CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56): [Better-Auth](https://github.com/better-auth/better-auth) library (~2.8M monthly downloads) — Open redirect affecting authentication flows across multiple routes.
-- [`GHSA-hq75-xg7r-rx6c`](https://github.com/better-auth/better-call/security/advisories/GHSA-hq75-xg7r-rx6c): [Better-Call](https://github.com/Bekacru/better-call) framework (~2.7M monthly downloads) — Routing flaw leading to cache deception attacks.
+- [`CVE-2026-24486`](https://github.com/Kludex/python-multipart/security/advisories/GHSA-wp53-j4wj-2cfg): [python-multipart](https://github.com/Kludex/python-multipart), used by FastAPI (~tens of millions of downloads). Arbitrary file write via a non-default configuration.
+- [`CVE-2026-22256`](https://github.com/salvo-rs/salvo/security/advisories/GHSA-rjf8-2wcw-f6mp): [Salvo](https://github.com/salvo-rs/salvo) web framework. Reflected XSS allowing arbitrary JavaScript execution in victims' browsers.
+- [`CVE-2026-22257`](https://github.com/salvo-rs/salvo/security/advisories/GHSA-8j5r-5j5r-5j5r): [Salvo](https://github.com/salvo-rs/salvo) web framework. Stored XSS via malicious file uploads, enabling persistent code execution.
+- [`CVE-2025-58362`](https://github.com/honojs/hono/security/advisories/GHSA-9hp6-4448-45g2): [Hono](https://github.com/honojs/hono) web framework (~27M monthly downloads). Path confusion flaw allowing bypass of proxy-level access controls (e.g. Nginx).
+- [`CVE-2025-59139`](https://github.com/honojs/hono/security/advisories/GHSA-92vj-g62v-jqhh): [Hono](https://github.com/honojs/hono) web framework (~27M monthly downloads). HTTP header parsing violation allowing bypass of body size limits.
+- [`CVE-2025-53535`](https://github.com/better-auth/better-auth/security/advisories/GHSA-36rg-gfq2-3h56): [Better-Auth](https://github.com/better-auth/better-auth) library (~2.8M monthly downloads). Open redirect affecting authentication flows across multiple routes.
+- [`GHSA-hq75-xg7r-rx6c`](https://github.com/better-auth/better-call/security/advisories/GHSA-hq75-xg7r-rx6c): [Better-Call](https://github.com/Bekacru/better-call) framework (~2.7M monthly downloads). Routing flaw leading to cache deception attacks.
 
 # Bug Bounty <span style="font-size: 0.6em;"><small>Reported 4 critical bugs</small></span>
 
