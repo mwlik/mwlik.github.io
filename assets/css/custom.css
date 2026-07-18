@@ -74,12 +74,9 @@ main .blog-post.rtl-post h3 {
 main .blog-post.rtl-post .poem {
   white-space: pre-wrap;
   margin: 0;
+  padding: 0;
   line-height: 1.9;
   font-size: 1.15rem;
-}
-/* attach each intro flush to the poem that follows it (drop the gap after the ":") */
-main .blog-post.rtl-post p:has(+ .poem) {
-  margin-bottom: 0;
 }
 
 /* RTL post previews on listing pages (e.g. Other writings) */
