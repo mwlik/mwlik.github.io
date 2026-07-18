@@ -25,7 +25,7 @@ Offensive security engineer focused on web and browser exploitation. Passionate 
 
 # Bug Bounty <span style="font-size: 0.6em;"><small>Reported 4 critical bugs</small></span>
 
-- Account takeover via XSS in a multi-million-user website, reported through a private program ($4,500 bounty).
+- Account takeover via XSS in a multi-million-user platform, reported through a private program ($4,500 bounty).
 - Web2/XSS in `require_payment` function in `x402.fastapi.middleware` Python package can lead to ATO or funds stealing in [Coinbase's x402 protocol](https://github.com/coinbase/x402) ($2,000 bounty).
 - Web2/XSS in the basic HTML paywall in `@x402/express`, `@x402/hono`, `@x402/next` packages can lead to ATO or funds stealing in [Coinbase's x402 protocol](https://github.com/coinbase/x402) ($200).
 - NULL pointer dereference in a blockchain library allowing full denial of service ($400).
