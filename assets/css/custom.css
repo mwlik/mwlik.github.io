@@ -78,9 +78,9 @@ main .blog-post.rtl-post .poem {
   line-height: 1.9;
   font-size: 1.15rem;
 }
-/* halve the theme's <p> margin (1.875rem ~30px) for Arabic prose in this post */
+/* halve the theme's <p> bottom margin (1.875rem ~30px) for Arabic prose in this post */
 main .blog-post.rtl-post p {
-  margin: 0.9375rem 0;
+  margin-bottom: 0.9375rem;
 }
 
 /* RTL post previews on listing pages (e.g. Other writings) */
