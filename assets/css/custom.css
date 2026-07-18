@@ -52,24 +52,21 @@ main .blog-post.rtl-post table {
   text-align: right;
 }
 
-/* Exotic Arabic typography for RTL posts & previews */
+/* Arabic typography for RTL posts & previews */
 .posts-list article.rtl-preview,
 main .blog-post.rtl-post,
-.intro-header .heading-rtl {
-  font-family: 'Amiri', 'Lora', 'Times New Roman', serif;
-}
-/* keep subtitles in the readable Naskh (they'd otherwise fall back to Open Sans) */
+.intro-header .heading-rtl,
 .intro-header .heading-rtl .post-subheading,
 .posts-list article.rtl-preview .post-subtitle {
-  font-family: 'Amiri', 'Lora', serif;
+  font-family: 'Scheherazade New', serif;
 }
-/* calligraphic display face for titles & section headings */
+/* bolder weight for titles & section headings */
 .intro-header .heading-rtl h1,
 .posts-list article.rtl-preview .post-title,
 main .blog-post.rtl-post h1,
 main .blog-post.rtl-post h2,
 main .blog-post.rtl-post h3 {
-  font-family: 'Scheherazade New', 'Amiri', serif;
+  font-family: 'Scheherazade New', serif;
   font-weight: 700;
 }
 
