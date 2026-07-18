@@ -56,3 +56,17 @@ main .blog-post.rtl-post table {
 .posts-list article.rtl-preview {
   text-align: right;
 }
+/* keep the "Tags:" label and the tag chips as one tight, right-aligned unit */
+.posts-list article.rtl-preview .blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* = right edge under RTL */
+  gap: 0.25rem;
+}
+.posts-list article.rtl-preview .blog-tags ul {
+  margin: 0;
+  padding: 0;
+}
+.posts-list article.rtl-preview .blog-tags .list-inline-item {
+  margin: 0;
+}
