@@ -52,6 +52,27 @@ main .blog-post.rtl-post table {
   text-align: right;
 }
 
+/* Exotic Arabic typography for RTL posts & previews */
+.posts-list article.rtl-preview,
+main .blog-post.rtl-post,
+.intro-header .heading-rtl {
+  font-family: 'Amiri', 'Lora', 'Times New Roman', serif;
+}
+/* keep subtitles in the readable Naskh (they'd otherwise fall back to Open Sans) */
+.intro-header .heading-rtl .post-subheading,
+.posts-list article.rtl-preview .post-subtitle {
+  font-family: 'Amiri', 'Lora', serif;
+}
+/* calligraphic Ruqaa display face for titles & section headings */
+.intro-header .heading-rtl h1,
+.posts-list article.rtl-preview .post-title,
+main .blog-post.rtl-post h1,
+main .blog-post.rtl-post h2,
+main .blog-post.rtl-post h3 {
+  font-family: 'Aref Ruqaa', 'Amiri', serif;
+  font-weight: 700;
+}
+
 /* RTL post previews on listing pages (e.g. Other writings) */
 .posts-list article.rtl-preview {
   text-align: right;
