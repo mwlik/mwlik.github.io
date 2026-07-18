@@ -63,13 +63,13 @@ main .blog-post.rtl-post,
 .posts-list article.rtl-preview .post-subtitle {
   font-family: 'Amiri', 'Lora', serif;
 }
-/* calligraphic Ruqaa display face for titles & section headings */
+/* calligraphic display face for titles & section headings */
 .intro-header .heading-rtl h1,
 .posts-list article.rtl-preview .post-title,
 main .blog-post.rtl-post h1,
 main .blog-post.rtl-post h2,
 main .blog-post.rtl-post h3 {
-  font-family: 'Aref Ruqaa', 'Amiri', serif;
+  font-family: 'Scheherazade New', 'Amiri', serif;
   font-weight: 700;
 }
 
