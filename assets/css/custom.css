@@ -77,6 +77,13 @@ main .blog-post.rtl-post .poem {
   line-height: 1.9;
   font-size: 1.15rem;
 }
+/* the theme gives <p> a 1.875rem margin; pull prose tight against the poems it touches */
+main .blog-post.rtl-post p:has(+ .poem) {
+  margin-bottom: 0;
+}
+main .blog-post.rtl-post .poem + p {
+  margin-top: 0;
+}
 
 /* RTL post previews on listing pages (e.g. Other writings) */
 .posts-list article.rtl-preview {
