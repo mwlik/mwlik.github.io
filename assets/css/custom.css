@@ -27,23 +27,23 @@
 }
 
 /* --- Right-to-left posts (e.g. Arabic), enabled via `rtl: true` in front matter --- */
-main.rtl-post {
+main .blog-post.rtl-post {
   text-align: right;
 }
-main.rtl-post ul,
-main.rtl-post ol {
+main .blog-post.rtl-post ul,
+main .blog-post.rtl-post ol {
   padding-left: 0;
   padding-right: 1.5rem;
 }
-main.rtl-post blockquote {
+main .blog-post.rtl-post blockquote {
   border-left: 0;
   border-right: 3px solid #ddd;
   padding-left: 0;
   padding-right: 1rem;
   text-align: right;
 }
-main.rtl-post pre,
-main.rtl-post table {
+main .blog-post.rtl-post pre,
+main .blog-post.rtl-post table {
   text-align: left; /* keep code blocks and tables LTR */
   direction: ltr;
 }
