@@ -18,11 +18,15 @@ title: 'Tag Index'
 
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
+    {%- assign has_rtl = false -%}
+    {%- for post in site.tags[tag] -%}
+      {%- if post.rtl -%}{%- assign has_rtl = true -%}{%- endif -%}
+    {%- endfor -%}
+    <h2 id="{{- tag -}}" class="linked-section{% if has_rtl %} rtl-tag{% endif %}"{% if has_rtl %} dir="rtl"{% endif %}>
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
-    <div class="post-list">
+    <div class="post-list{% if has_rtl %} rtl-tag{% endif %}"{% if has_rtl %} dir="rtl"{% endif %}>
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>

@@ -82,6 +82,10 @@ main .blog-post.rtl-post .poem {
 main .blog-post.rtl-post p {
   margin-bottom: 0.625rem;
 }
+/* RTL tag sections on the tags index (dir=rtl set in tags.html) */
+#full-tags-list .rtl-tag {
+  text-align: right;
+}
 
 /* RTL post previews on listing pages (e.g. Other writings) */
 .posts-list article.rtl-preview {
