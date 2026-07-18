@@ -70,6 +70,14 @@ main .blog-post.rtl-post h3 {
   font-weight: 700;
 }
 
+/* verse blocks: preserve line breaks + hemistich spacing */
+main .blog-post.rtl-post .poem {
+  white-space: pre-wrap;
+  margin: 1rem 0 1.75rem;
+  line-height: 2.1;
+  font-size: 1.15rem;
+}
+
 /* RTL post previews on listing pages (e.g. Other writings) */
 .posts-list article.rtl-preview {
   text-align: right;
