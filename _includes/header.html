@@ -22,7 +22,7 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="{{ include.type }}-heading">
+        <div class="{{ include.type }}-heading{% if page.rtl %} heading-rtl{% endif %}"{% if page.rtl %} dir="rtl"{% endif %}>
           {% if include.type == "page" and page.show_secret_home_button and page.secret_home_url %}
             <a class="bj-other-writings-btn bj-other-writings-btn--header" href="{{ page.secret_home_url | relative_url }}">Other writings</a>
           {% endif %}

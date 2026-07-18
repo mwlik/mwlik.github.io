@@ -5,9 +5,9 @@ subtitle: اختبار لعرض اللغة العربية على الموقع
 tags: [تجريبي]
 author: m411k
 categories: [secret]
+language: ar
+rtl: true
 ---
-
-<div dir="rtl" lang="ar" markdown="1">
 
 # مقدمة
 
@@ -30,5 +30,3 @@ categories: [secret]
 ## خاتمة
 
 إذا ظهر هذا النص بشكل صحيح ومحاذىً لليمين، فهذا يعني أن دعم العربية يعمل كما هو متوقع. يمكنك حذف هذه التدوينة في أي وقت.
-
-</div>
