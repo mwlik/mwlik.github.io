@@ -15,7 +15,7 @@ layout: page
   {% for post in posts %}
   {%- unless page.exclude_category and post.categories contains page.exclude_category -%}
   <li class="post-preview">
-    <article>
+    <article{% if post.rtl %} class="rtl-preview" dir="rtl"{% endif %}>
 
       {%- capture thumbnail -%}
         {% if post.thumbnail-img %}

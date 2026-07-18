@@ -51,3 +51,8 @@ main .blog-post.rtl-post table {
 .intro-header .heading-rtl {
   text-align: right;
 }
+
+/* RTL post previews on listing pages (e.g. Other writings) */
+.posts-list article.rtl-preview {
+  text-align: right;
+}
