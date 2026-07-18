@@ -77,8 +77,8 @@ main .blog-post.rtl-post .poem {
   line-height: 1.9;
   font-size: 1.15rem;
 }
-/* attach a labelled intro flush to the poem below it (class="lead-in" on the intro <p>) */
-main .blog-post.rtl-post .lead-in {
+/* attach each intro flush to the poem that follows it (drop the gap after the ":") */
+main .blog-post.rtl-post p:has(+ .poem) {
   margin-bottom: 0;
 }
 
