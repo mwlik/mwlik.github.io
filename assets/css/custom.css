@@ -73,8 +73,8 @@ main .blog-post.rtl-post h3 {
 /* verse blocks: preserve line breaks + hemistich spacing */
 main .blog-post.rtl-post .poem {
   white-space: pre-wrap;
-  margin: 1rem 0 1.75rem;
-  line-height: 2.1;
+  margin: 0.5rem 0 1.25rem;
+  line-height: 1.9;
   font-size: 1.15rem;
 }
 
