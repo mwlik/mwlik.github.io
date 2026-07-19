@@ -77,6 +77,7 @@ main .blog-post.rtl-post .poem {
   padding: 0;
   line-height: 1.9;
   font-size: 1.15rem;
+  text-align: center;
 }
 /* tighten the theme's <p> bottom margin (~30px) for Arabic prose in this post */
 main .blog-post.rtl-post p {
