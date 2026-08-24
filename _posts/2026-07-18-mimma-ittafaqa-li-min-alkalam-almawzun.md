@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "مِمَّا اتَّفَقَ لِي مِنَ الكَلَامِ المَوْزُونِ"
+title: "ممّا اتّفق لي من الكلام الموزون"
 tags: [شعر]
 author: m411k
 categories: [secret]
