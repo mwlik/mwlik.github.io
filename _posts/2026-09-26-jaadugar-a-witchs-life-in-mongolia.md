@@ -17,7 +17,7 @@ categories: [secret]
 </div>
 
 <div style="text-align: center;">
-<em>"Youth is no barrier to forbearance; forbearance may be found in the young and the grey-haired alike."</em>
+<em>"Youth is no barrier to wisdom; wisdom may be found in the young and the grey-haired alike."</em>
 </div>
 
 I don't like to be a passive reader, for that, I needed to write some rejoinders for this entertaining anime.
