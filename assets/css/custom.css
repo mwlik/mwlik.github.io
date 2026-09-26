@@ -52,6 +52,11 @@ main .blog-post.rtl-post table {
   text-align: right;
 }
 
+/* Arabic script falls back to Scheherazade New site-wide (Latin glyphs stay Lora) */
+body {
+  font-family: 'Lora', 'Scheherazade New', 'Times New Roman', serif;
+}
+
 /* Arabic typography for RTL posts & previews */
 .posts-list article.rtl-preview,
 main .blog-post.rtl-post,
