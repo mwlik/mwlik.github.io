@@ -13,12 +13,12 @@ categories: [secret]
 
 <div dir="rtl" style="text-align: center;">
 <strong>فَما الحَداثَةُ مِن حِلمٍ بِمانِعَةٍ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; قَد يوجَدُ الحِلمُ في الشُبّانِ وَالشيبِ</strong><br>
-<span style="display: inline-block; transform: translateX(-8em);">- المتنبي</span>
+<span style="display: inline-block; transform: translateX(-10em);">- المتنبي</span>
 </div>
 
 <div style="text-align: center;">
 <em>"Youth is no barrier to wisdom; wisdom may be found in the young and the grey-haired alike."</em><br>
-<span style="display: inline-block; transform: translateX(8em);">- Al-Mutanabbi</span>
+<span style="display: inline-block; transform: translateX(10em);">- Al-Mutanabbi</span>
 </div>
 
 I don't like to be a passive reader, for that, I needed to write some rejoinders for this entertaining anime.
