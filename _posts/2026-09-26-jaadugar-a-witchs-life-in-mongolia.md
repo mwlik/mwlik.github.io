@@ -34,7 +34,7 @@ I know this was more of a sentimental statement made by a passionate kid that wa
 
 In this episode Anis tries to comfort Fatima and convince here to put off the blame from her back by giving her an example from islamic jurisprudence where the slave generally receives the half the punishment a free man would.
 
-![Anis comforting Fatima](/assets/img/jaadugar_assets/ep2-anis-fatima.png)
+<p style="text-align: center;"><img src="/assets/img/jaadugar_assets/ep2-anis-fatima.png" alt="Anis comforting Fatima" style="width: 60%; height: auto;"></p>
 
 That rule exists. in fact it’s mentioned in the [Quran](https://quran.com/an-nisa/25?translations=31%2C95&readingMode=verse-by-verse):
 
@@ -64,7 +64,7 @@ This is not a critique but a thought that I had and deemed to be worth noting.
 
 ![Episode 8 scene](/assets/img/jaadugar_assets/ep8-cure-2.png)
 
-*Season 1 Episode 8*
+<div style="text-align: center;"><em>Season 1 Episode 8</em></div>
 
 When looking at this scene, I thought a way of synthesizing how this 'all sicknesses -but death' cure is going to manifest -centuries later from now maybe- is by having a complex program contained in the chemical, of course am not anything near a biologist or chemist, but upon search, I was happy as a computer science guy to see turing completness discussed and researched in this field too:
 
