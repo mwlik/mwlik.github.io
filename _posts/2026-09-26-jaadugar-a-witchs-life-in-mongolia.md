@@ -13,7 +13,7 @@ categories: [secret]
 
 <div dir="rtl" style="text-align: center;">
 <strong>فَما الحَداثَةُ مِن حِلمٍ بِمانِعَةٍ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; قَد يوجَدُ الحِلمُ في الشُبّانِ وَالشيبِ</strong><br>
-- المتنبي
+- Al-Mutanabbi
 </div>
 
 <div style="text-align: center;">
