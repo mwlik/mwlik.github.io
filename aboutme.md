@@ -6,7 +6,7 @@ subtitle: ‎0x4141414141414141
 
 I've been building state machines for four years, creating weird machines for three now. *I've looked at [software] from both sides now*, but I haven't seen it all; I never will, probably, but I aspire to.
 
-Besides machines, I like poetry and politics, both of them about life and preserving its preciousness.
+Besides machines, I like poetry and politics, both being about life and preserving its preciousness.
 
 # Work Experience
 
