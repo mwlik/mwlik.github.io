@@ -4,9 +4,9 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
-I've been building state machines for 4 years, then creating weird machines for 3 years now, *I've looked at [software] from both sides now*, but I haven't seen it all, I will never, probably, but I aspire too.
+I've been building state machines for four years, creating weird machines for three now. *I've looked at [software] from both sides now*, but I haven't seen it all; I never will, probably, but I aspire to.
 
-Besides machines, I like poetry, politics, both being about life, and preserving its preciousness.
+Besides machines, I like poetry and politics, both of them about life and preserving its preciousness.
 
 # Work Experience
 
