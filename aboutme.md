@@ -4,7 +4,9 @@ title: About Me
 subtitle: ‎0x4141414141414141
 ---
 
-Offensive security engineer focused on web and browser exploitation. Passionate about uncovering, reproducing, and tinkering with intricate bugs in high-impact, widely used software.
+I've been building state machines for 4 years, then creating weird machines for 3 years now, *I've looked at [software] from both sides now*, but I haven't seen it all, I will never, probably, but I inspire too.
+
+Beside machines, I like poetry, politics, both being about life, and preserving it's preciousness.
 
 # Work Experience
 
