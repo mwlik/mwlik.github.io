@@ -35,18 +35,18 @@ Besides machines, I like poetry and politics, both being about life and preservi
 - Web2/XSS in the basic HTML paywall in `@x402/express`, `@x402/hono`, `@x402/next` packages can lead to ATO or funds stealing in [Coinbase's x402 protocol](https://github.com/coinbase/x402) ($200).
 - NULL pointer dereference in a blockchain library allowing full denial of service ($400).
 
-# CTF Experience (Awards)
-
-- **Cyber Odyssey 2024:** Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
-- **MCSC National CTF 2024:** Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
-- **NULL Hat Morocco 2025:** Secured second place with my team FC2MK focusing on Web challenges.
-- **The International Days of Ethical Hacking (IDEH) v7 CTF:** Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
-
 # Browser Exploitation Research
 
 - [`CVE-2026-3910`](https://research.rewritelab.org/2026/06/11/%5BENG%5D%20Pwning%20Chromium%20146%20Renderer%20Process/): Reproduced and chained [Issue 491410818](https://issues.chromium.org/issues/491410818) with [Issue 483092905](https://issues.chromium.org/issues/483092905) and [Issue 485784597](https://issues.chromium.org/issues/485784597) to exploit V8 and compromise the Chromium renderer process (published in RewriteLab).
 - [`CVE-2025-10891`](https://mwlik.github.io/2026-03-01-exploiting-chromium-140-renderer-process/): Reproduced and exploited [Issue 443765373](https://issues.chromium.org/issues/443765373), an integer truncation in Ignition — V8's interpreter — that leads to arbitrary bytecode execution ultimately leading to sandbox renderer process RCE.
 - [`CVE-2023-6702`](https://github.com/mwlik/v8-ndays/tree/main/CVE-2023-6702): Reproduced [Issue 40941600](https://issues.chromium.org/issues/40941600), a type confusion vulnerability in V8 leading to memory corruption and RCE eventually.
+
+# CTF Experience
+
+- **Cyber Odyssey 2024:** Secured first place in Cyber Odyssey 2024, the biggest CTF competition in Morocco, winning a total of 80,000 DH with my team FC2MK, focused on Web challenges.
+- **MCSC National CTF 2024:** Secured second place with my team FC2MK, winning a total of 10,000 DH, focused on Web challenges.
+- **NULL Hat Morocco 2025:** Secured second place with my team FC2MK focusing on Web challenges.
+- **The International Days of Ethical Hacking (IDEH) v7 CTF:** Secured the third place with my team FC2MK, winning a total of 3,000 DH, focusing on Web challenges.
 
 # Education
 
